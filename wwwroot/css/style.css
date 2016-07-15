@@ -1,0 +1,22 @@
+.navbar, .navbar-inverse, .navbar-fixed-top {
+	background:#FFFCF5;
+	border:none;
+}
+
+.btn-primary {
+	background:#F15A34;
+	border:none;
+}
+.btn-lg {
+	border-radius:30px;
+}
+
+.section-link > div {
+	background:#6F6664;
+}
+
+.section-link h2 {
+	margin:0;
+	font-size:28px;
+	color:#fff;
+}
