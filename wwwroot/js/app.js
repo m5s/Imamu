@@ -3,10 +3,6 @@ var app = angular.module('imamuApp', ['ngRoute']);
  // configure our routes
 app.config(function($routeProvider, $locationProvider) {
 
-		$locationProvider.html5Mode({
-		  enabled: true,
-		  requireBase: false
-		});
         $routeProvider
 
         // route for the home page
@@ -18,6 +14,13 @@ app.config(function($routeProvider, $locationProvider) {
             templateUrl : '/templates/marketplace.html',
             controller  : 'HomeController'
         })
+        .otherwise( {redirectTo: '/'});
+
+
+        $locationProvider.html5Mode({
+		  enabled: true,
+		  requireBase: false
+		});
 
 });
 
