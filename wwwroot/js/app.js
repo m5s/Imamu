@@ -14,6 +14,22 @@ app.config(function($routeProvider, $locationProvider) {
             templateUrl : '/templates/marketplace.html',
             controller  : 'HomeController'
         })
+        .when('/products', {
+            templateUrl : '/templates/products.html',
+            controller  : 'HomeController'
+        })
+        .when('/learn', {
+            templateUrl : '/templates/learn.html',
+            controller  : 'HomeController'
+        })
+        .when('/seller', {
+            templateUrl : '/templates/seller.html',
+            controller  : 'HomeController'
+        })
+        .when('/product_detail', {
+            templateUrl : '/templates/product_detail.html',
+            controller  : 'HomeController'
+        })
         .otherwise( {redirectTo: '/'});
 
 
