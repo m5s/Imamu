@@ -2,10 +2,10 @@
 
   var HomeController = function($scope) {
 
-    debugger;
+    
 
      function init() {
-      
+
      }
 
      init();
