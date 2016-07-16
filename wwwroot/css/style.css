@@ -122,11 +122,42 @@ HOME
 
 .section-link > div {
 	background:#6F6664;
+	min-height:15em;
+	position:relative;
 }
 
 .section-link h2 {
 	margin:0;
 	font-size:28px;
+	color:#fff;
+	padding:20px;
+	margin-bottom:20px;
+}
+
+.section-link p {
+	position:absolute;
+	bottom:20px;
+	left:20px;
+}
+
+.section-link .btn {
+	font-size:14px;
+	font-weight:bold;
+	padding:10px 20px;
+}
+
+.jumbotron {
+	background-image:url("../images/h-hero.jpg");
+	background-size: cover;
+	padding-top:12em;
+	padding-bottom:12em;
+}
+
+.jumbotron h1 {
+	color:#fff;
+}
+
+.jumbotron p {
 	color:#fff;
 }
 
