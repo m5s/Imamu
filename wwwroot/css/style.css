@@ -89,7 +89,31 @@ a:hover {
 	font-weight:bold;	
 }
 
-
+/* 
+------------------
+NAV
+------------------
+*/
+.site-nav-links {
+	height: 50px;
+    padding: 15px 15px;
+    font-size: 12px;
+    line-height: 20px;
+}
+.site-nav-links a {
+	margin-left:10px;
+	color:#66615B;
+	font-weight:bold;
+}
+.site-nav-links a:first-child {
+	margin-left:0;
+}
+.navbar-brand {
+	width:250px;
+}
+button.navbar-toggle.collapsed {
+	background:#66615B;
+}
 /* 
 ------------------
 HOME
