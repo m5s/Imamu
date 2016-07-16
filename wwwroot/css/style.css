@@ -1,15 +1,100 @@
+body {
+	background:#FFFCF5;
+	color:#6F6664;
+}
+a, a:visited, a:hover {
+	color:#6F6664;
+}
+a:hover {
+	text-decoration:none;
+	cursor:pointer;
+}
+
 .navbar, .navbar-inverse, .navbar-fixed-top {
 	background:#FFFCF5;
 	border:none;
 }
-
+.btn, .btn-default {
+	background:#F15A34;
+	border:none;
+	color:#fff !important;
+	border-radius:20px;
+}
 .btn-primary {
 	background:#F15A34;
 	border:none;
+	color:#fff !important;
+
 }
+
 .btn-lg {
 	border-radius:30px;
 }
+
+.valign {
+  position: relative;
+  top: 50%;
+  transform: perspective(1px) translateY(-50%);
+}
+
+.pg-title {
+	background:#6F6664;
+	border-top: 1px solid #979797;
+	border-bottom: 1px solid #979797;
+	padding-top:48px;
+	height:120px;
+	font-size:36px;
+	color:#fff;
+}
+.pg-title > div {
+	margin:auto;
+	padding:0 15px;
+}
+
+@media only screen 
+  and (min-width: 0px) 
+  and (max-width: 768px) {
+  	.pg-title > div {
+    	
+  	}  
+  }
+@media only screen 
+  and (min-width: 768px) 
+  and (max-width: 992px) {
+  	.pg-title > div {
+    	width: 750px;
+  	}  
+  }
+@media only screen 
+  and (min-width: 992px) 
+  and (max-width: 1200px) {
+  	.pg-title > div {
+    	width: 970px;
+  	}  
+  }  
+@media only screen 
+  and (min-width: 1200px) {
+  	.pg-title > div {
+    	width: 1170px;
+  	}  
+  }
+
+.bcrumb {
+	font-size:14px;
+	padding:14px 0;
+	border-bottom: 1px solid #F1CAC0;
+}
+.bcrumb > span:last-child {
+	color:#F15A34;
+	font-weight:bold;	
+}
+
+
+/* 
+------------------
+HOME
+------------------
+*/
 
 .section-link > div {
 	background:#6F6664;
@@ -19,4 +104,55 @@
 	margin:0;
 	font-size:28px;
 	color:#fff;
+}
+
+/* 
+------------------
+PRODUCTS
+------------------
+*/
+
+.products h2 {
+	color:#6F6664;
+	font-weight:bold;
+}
+
+.products .row {
+	margin-top:30px;
+	margin-bottom:30px;
+}
+
+.product-icon > div{
+	height:80px;
+	margin-bottom:10px;
+}
+.product-icon > div > img {
+	max-height:80px;
+}
+.product-icon > p {
+	font-size:18px;
+	color:#6F6664;
+}
+.product-icon > p:nth-child(2) {
+	color:#F15A34;
+	font-weight:bold;
+	font-size:20px;
+}
+
+.item-listing {
+
+}
+.item-listing > div {
+	background:#3D3432;
+	padding:20px 10px;
+	position:relative;
+}
+.item-listing h4 {
+	color:#fff;
+	margin:0;	
+}
+.item-listing p{
+	position:absolute;
+	right:10px;
+	top:12px;
 }
