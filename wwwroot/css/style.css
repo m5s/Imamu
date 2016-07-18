@@ -11,6 +11,14 @@ a:hover {
 	cursor:pointer;
 }
 
+footer {
+	background:#F15A34;
+	color:#fff;
+	text-align:center;
+	margin-top:40px;
+	padding:20px 0;
+}
+
 .navbar, .navbar-inverse, .navbar-fixed-top {
 	background:#FFFCF5;
 	border:none;
