@@ -39,7 +39,7 @@
 					</p>
 					<div class="product-price">
 						<span>{{product.price}}</span>
-						<p><a class="btn btn-default" role="button" data-toggle="modal" data-target="#myModal">Reserve My Kit</a></p>  
+						<p><a class="btn btn-default" role="button" data-toggle="modal" data-target="#myModal" ng-click="trackEvent('Product Reserve Step One', {product: product.name })">Reserve My Kit</a></p>  
 					</div>
 				</div>
 			</div>

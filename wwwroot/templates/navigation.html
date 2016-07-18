@@ -13,10 +13,10 @@
     </div>
     <div id="navbar" class="navbar-collapse collapse navbar-right">
        <div class="site-nav-links">
-         <a href="#/" ng-click="trackEvent('Nav Linked Clicked', {destination: 'Home'})">Home</a>
-         <a href="#/learn" ng-click="trackEvent('Nav Linked Clicked', {destination: 'Learn'})">How To</a>
-         <a href="#/products" ng-click="trackEvent('Nav Linked Clicked', {destination: 'Products'})">Starter Kits</a>
-         <a href="#/marketplace" ng-click="trackEvent('Nav Linked Clicked', {destination: 'Marketplace'})">Marketplace</a>
+         <a class="nav-link" id="home" href="#/" ng-class="{selected : isSelected('home') }" ng-click="trackEvent('Nav Linked Clicked', {destination: 'home'})">Home</a>
+         <a class="nav-link" id="how-to" href="#/learn" ng-click="trackEvent('Nav Linked Clicked', {destination: 'Learn'})" ng-class="{selected : isSelected('learn') }">How To</a>
+         <a class="nav-link" id="products" href="#/products" ng-click="trackEvent('Nav Linked Clicked', {destination: 'Products'})" ng-class="{selected : isSelected('products') }">Starter Kits</a>
+         <a class="nav-link" id="marketplace" href="#/marketplace" ng-click="trackEvent('Nav Linked Clicked', {destination: 'Marketplace'})" ng-class="{selected : isSelected('marketplace') }">Marketplace</a>
        </div> 
     </div><!--/.navbar-collapse -->
   </div>

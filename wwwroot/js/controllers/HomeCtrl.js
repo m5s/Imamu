@@ -6,6 +6,7 @@
      $scope.trackEvent = trackEvent
      $scope.path = window.location.pathname
      $scope.pathArray = window.location.hash.split( '/' );
+     $scope.isSelected = isSelected
 
      function init() {
        if ($scope.pathArray[1] == "products"){
@@ -46,6 +47,19 @@
           $scope.user.name = null
         }
         $scope.user.email = null
+     }
+
+     function isSelected(linkId) {
+      var path = $scope.pathArray[1] 
+      debugger;
+      if (path == ""&& linkId == 'home') {
+        return true
+      } else if (path == linkId) {
+        return true
+      } else {
+        return false
+      }
+
      }
 
      function determineProduct(){
@@ -198,6 +212,8 @@
 
 
      }
+
+
 
   };
 
