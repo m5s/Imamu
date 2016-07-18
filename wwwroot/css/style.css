@@ -144,7 +144,6 @@ HOME
 
 .section-link h2 {
 	margin:0;
-	font-size:28px;
 	color:#fff;
 	padding:20px;
 	margin-bottom:20px;
@@ -155,7 +154,20 @@ HOME
 	bottom:20px;
 	left:20px;
 }
-
+@media only screen 
+  and (min-width: 0px) 
+  and (max-width: 768px) {
+  	.section-link > div {
+    	max-width:360px;
+  	}  
+  }
+ @media only screen 
+  and (min-width: 992px) 
+  and (max-width: 1200px) {
+  	.section-link h2 {
+  		font-size:24px;
+  	}  
+  } 
 .section-link .btn {
 	font-size:14px;
 	font-weight:bold;
@@ -346,7 +358,7 @@ MARKETPLACE
 */
 .learn-more {
 	border:3px solid #F15A34;
-	color:#F15A34;
+	color:#F15A34 !important;
 	border-radius:20px;
 	font-size:14px;
 	padding:5px 10px;
