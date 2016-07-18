@@ -26,44 +26,44 @@ app.config(function($routeProvider, $locationProvider) {
             templateUrl : '/templates/seller.html',
             controller  : 'HomeController'
         })
-        .when('/product_detail', {
+        .when('/products/product_detail', {
             templateUrl : '/templates/product_detail.html',
             controller  : 'HomeController'
         })
-        .when('/yogurt', {
-            templateUrl : '/templates/yogurt.html',
+        .when('/products/yogurt', {
+            templateUrl : '/templates/product_detail.html',
             controller  : 'HomeController'
         })
-        .when('/cheese', {
+        .when('/products/cheese', {
             templateUrl : '/templates/cheese.html',
             controller  : 'HomeController'
         })
-        .when('/cider', {
-            templateUrl : '/templates/cider.html',
+        .when('/products/cider', {
+            templateUrl : '/templates/product_detail.html',
             controller  : 'HomeController'
         })
-        .when('/kefir', {
-            templateUrl : '/templates/kefir.html',
+        .when('/products/kefir', {
+            templateUrl : '/templates/product_detail.html',
             controller  : 'HomeController'
         })
-        .when('/kombucha', {
+        .when('/products/kombucha', {
             templateUrl : '/templates/kombucha.html',
             controller  : 'HomeController'
         })
-        .when('/kimchi', {
-            templateUrl : '/templates/kimchi.html',
+        .when('/products/kimchi', {
+            templateUrl : '/templates/product_detail.html',
             controller  : 'HomeController'
         })
-        .when('/pickles', {
-            templateUrl : '/templates/pickles.html',
+        .when('/products/pickles', {
+            templateUrl : '/templates/product_detail.html',
             controller  : 'HomeController'
         })
-        .when('/sauerkraut', {
-            templateUrl : '/templates/sauerkraut.html',
+        .when('/products/sauerkraut', {
+            templateUrl : '/templates/product_detail.html',
             controller  : 'HomeController'
         })
-        .when('/tempeh', {
-            templateUrl : '/templates/tempeh.html',
+        .when('/products/tempeh', {
+            templateUrl : '/templates/product_detail.html',
             controller  : 'HomeController'
         })
         .otherwise( {redirectTo: '/'});
