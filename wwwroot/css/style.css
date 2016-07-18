@@ -262,6 +262,13 @@ PRODUCTS
 .item-listing {
 
 }
+@media only screen 
+  and (min-width: 0px) 
+  and (max-width: 768px) {
+  	.item-listing > div {
+    	max-width:360px;
+  	}  
+  }
 .item-listing > div {
 	background:#3D3432;
 	padding:20px 10px;
