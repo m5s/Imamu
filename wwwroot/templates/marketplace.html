@@ -1,1 +1,98 @@
 <div ng-include src="'/templates/navigation.html'"></div>
+<div class="pg-title">
+	<div class="valign">
+		Check out what Imamu members are up to in New York
+	</div>
+</div>
+<div class="container marketplace">
+	<div class="bcrumb">
+		<a href="#/">Home</a>
+		<span>  /  </span>
+		<span>Marketplace</span> 
+	</div>
+	<h2>
+		Interested in becoming a certified Imamu seller? <a class="learn-more" href="#/seller">Learn more</a>
+	</h2>
+	<div class="row">
+		<div class="col-sm-6 col-md-6">
+			<img class="img-responsive center-block" src="images/m-raita.jpg"/>
+		</div>
+		<div class="col-sm-6 col-md-6 market-item">
+			<div class="market-person">
+				<img class="img-circle img-responsive seller-photo" src="images/m-saman.jpg"/>
+				<p>Saman's Spicy Raita</p>
+				<p>Upper East Side, NYC</p>
+			</div>
+			<div class="clearfix"></div>
+			<p>Each order includes 4 x 1 pint jars of hand crafted grass-fed whole milk yogurt raita. Pleasantly spicy and just a little tangy, it's a real treat!</p>
+			<p>Ingredients: Grass-Fed whole milk, cultures, garlic, cucumber, scallions, salt, pepper, coriander, cumin.</p>
+			<div class="product-price">
+				<span>$10</span>
+				<p><a class="btn btn-default" role="button" data-toggle="modal" data-target="#myModal">Purchase</a></p>  
+			</div>		
+		</div>
+
+	</div>
+	<div class="row">
+		<div class="col-sm-6 col-md-6">
+			<img class="img-responsive center-block" src="images/m-pickles.jpg"/>
+		</div>
+		<div class="col-sm-6 col-md-6 market-item">
+			<div class="market-person">
+				<img class="img-circle img-responsive seller-photo" src="images/m-pip.jpg"/>
+				<p>Pip’s Maple-Bourbon Pickles</p>
+				<p>Astoria, Queens</p>
+			</div>
+			<div class="clearfix"></div>
+			<p>Each order includes 2 x 1 liter jars maple bourbon pickles (no alcohol). Slightly sweet with just a little bit of that earthy bourbon taste.</p>
+			<p>Ingredients: Pickling cucumbers, sea salt, water, apple cider vinegar, bourbon, garlic, pickling spices, mustard seeds, fresh dill, chile flakes, grape leaves.</p>
+			<div class="product-price">
+				<span>$12</span>
+				<p><a class="btn btn-default" role="button" data-toggle="modal" data-target="#myModal">Purchase</a></p>  
+			</div>			
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-6 col-md-6">
+			<img class="img-responsive center-block" src="images/m-kimchi.jpg"/>
+		</div>
+		<div class="col-sm-6 col-md-6 market-item">
+			<div class="market-person">
+				<img class="img-circle img-responsive seller-photo" src="images/m-kim.jpg"/>
+				<p>Kimmy Kim’s Chi-Chi</p>
+				<p>Park Slope, NYC</p>
+			</div>
+			<div class="clearfix"></div>
+			<p>Each order includes 1 x 1 gallon jar of spicy traditional Korean kimchi. How spicy? Well, let's just say it's 'traditionally' spicy!</p>
+			<p>Ingredients: Napa cabbage, Kosher salt, water, sweet rice flour, turbinado sugar, radish matchsticks, carrot matchsticks, green onions, scallions, garlic cloves,  ginger, onion, fish sauce, fermented salted shrimp, hot pepper flakes (gochugaru)</p>
+			<div class="product-price">
+				<span>$14</span>
+				<p><a class="btn btn-default" role="button" data-toggle="modal" data-target="#myModal">Purchase</a></p>  
+			</div>
+		</div>
+	</div>
+
+
+	<!-- Modal -->
+	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header text-center">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	        <h4 class="modal-title" id="myModalLabel">Sorry, the first batch is sold out!</h4>
+	        <p>Enter your email address below and we'll let you know when more becomes available!</p>
+	      </div>
+	      <div class="modal-body">
+	        <form id="email-form" novalidate>
+  				<input id="email-input" class="form-control" type="email" ng-model="user.email" placeholder="Enter your email" autofocus/>
+
+			</form>
+	      </div>
+	      <div class="modal-footer">
+	        <input class="btn btn-primary" id="signup-button" type="submit" ng-click="createUser(user)" value="SUBMIT" />
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+</div>

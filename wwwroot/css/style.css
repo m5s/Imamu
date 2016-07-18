@@ -333,3 +333,39 @@ PRODUCTS ITEMS
 .other-kits > p {
 	margin-bottom:30px;
 }
+/* 
+------------------
+MARKETPLACE
+------------------
+*/
+.learn-more {
+	border:3px solid #F15A34;
+	color:#F15A34;
+	border-radius:20px;
+	font-size:14px;
+	padding:5px 10px;
+	vertical-align:5px;
+}
+.marketplace h2 {
+	margin-bottom:50px;
+}
+.marketplace div.row::after {
+	padding:20px;
+}
+.seller-photo {
+	float: left;
+    width: 80px;
+    margin-right: 20px;
+}
+.market-person > p {
+	font-size:1.25em;
+	color:#3D3432;
+}
+.market-person > p:nth-child(2){
+	color:#F15A34;
+	font-size:2em;
+}
+.market-item > p {
+	font-size:1.5em;
+	margin:20px 0;
+}
