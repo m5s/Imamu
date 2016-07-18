@@ -94,7 +94,7 @@
       kimchi = {}
       kimchi.name = "Kimchi"
       kimchi.large_image = "images/p-kimchi.jpg"
-      kimchi.additional_images = ["images/p-box.jpg", "images/p-largejar.jpg", "images/p-cider-jar.jpg" ,"images/p-packet.jpg"]
+      kimchi.additional_images = ["images/p-box.jpg", "images/p-largejar.jpg","images/p-packet.jpg"]
       kimchi.title = "Imamu Kimchi Starter Kit"
       kimchi.contains = ["Two packets of kimichi paste", "Kimchi glass jar", "Fermentation lock lid", "Recipe and instruction booklet"]
       kimchi.product_description = "Our traditional Kimchi starter is a wonderful introduction to the pleasure of kimchi crafting. You can experiment to create your own levels of sour and spice. With no starter to maintain this culture a great choice for beginners."
