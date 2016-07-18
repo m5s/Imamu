@@ -34,6 +34,38 @@ app.config(function($routeProvider, $locationProvider) {
             templateUrl : '/templates/yogurt.html',
             controller  : 'HomeController'
         })
+        .when('/cheese', {
+            templateUrl : '/templates/cheese.html',
+            controller  : 'HomeController'
+        })
+        .when('/cider', {
+            templateUrl : '/templates/cider.html',
+            controller  : 'HomeController'
+        })
+        .when('/kefir', {
+            templateUrl : '/templates/kefir.html',
+            controller  : 'HomeController'
+        })
+        .when('/kombucha', {
+            templateUrl : '/templates/kombucha.html',
+            controller  : 'HomeController'
+        })
+        .when('/kimchi', {
+            templateUrl : '/templates/kimchi.html',
+            controller  : 'HomeController'
+        })
+        .when('/pickles', {
+            templateUrl : '/templates/pickles.html',
+            controller  : 'HomeController'
+        })
+        .when('/sauerkraut', {
+            templateUrl : '/templates/sauerkraut.html',
+            controller  : 'HomeController'
+        })
+        .when('/tempeh', {
+            templateUrl : '/templates/tempeh.html',
+            controller  : 'HomeController'
+        })
         .otherwise( {redirectTo: '/'});
 
 });
