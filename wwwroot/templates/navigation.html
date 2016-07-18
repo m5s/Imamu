@@ -13,10 +13,10 @@
     </div>
     <div id="navbar" class="navbar-collapse collapse navbar-right">
        <div class="site-nav-links">
-         <a href="#/">Home</a>
-         <a href="#/learn">How To</a>
-         <a href="#/products">Starter Kits</a>
-         <a href="#/marketplace">Marketplace</a>
+         <a href="#/" ng-click="trackEvent('Nav Linked Clicked', {destination: 'Home'})">Home</a>
+         <a href="#/learn" ng-click="trackEvent('Nav Linked Clicked', {destination: 'Learn'})">How To</a>
+         <a href="#/products" ng-click="trackEvent('Nav Linked Clicked', {destination: 'Products'})">Starter Kits</a>
+         <a href="#/marketplace" ng-click="trackEvent('Nav Linked Clicked', {destination: 'Marketplace'})">Marketplace</a>
        </div> 
     </div><!--/.navbar-collapse -->
   </div>

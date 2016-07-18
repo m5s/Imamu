@@ -46,7 +46,7 @@
 		<form id="email-form" novalidate>
   			<input id="name-input" class="form-control" type="text" ng-model="user.name" placeholder="Enter your name" autofocus/>
   			<input id="email-input" class="form-control" type="email" ng-model="user.email" placeholder="Enter your email" autofocus/>
-  			<input class="btn btn-primary" id="signup-button" type="submit" ng-click="createUser(user)" value="SUBMIT" />
+  			<input class="btn btn-primary" id="signup-button" type="submit" ng-click="userAction(user, 'Seller Submission')" value="SUBMIT" />
 		</form>
 	</div>
 

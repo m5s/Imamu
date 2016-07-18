@@ -10,17 +10,17 @@
 		<span>  /  </span>
 		<span> <a href="#/products">Starter Kits</a></span>
 		<span>  /  </span>
-		<span>Kefir Starter Kit</span>		 
+		<span>Kefir Starter Kit</span>
 	</div>
 	<div class="kit-includes row">
 		<div class="col-md-6">
  			<div class="row">
-	 			<img class="img-responsive" src="images/p-kefir.jpg"/>			
+	 			<img class="img-responsive" src="images/p-kefir.jpg"/>
  			</div>
  			<div class="row included-items">
  				<div class="col-xs-4 col-sm-4 col-md-4"><img class="img-responsive center-block" src="images/p-box.jpg"/></div>
  				<div class="col-xs-4 col-sm-4 col-md-4"><img class="img-responsive center-block" src="images/p-largejar.jpg"/></div>
- 				<div class="col-xs-4 col-sm-4 col-md-4"><img class="img-responsive center-block" src="images/p-packet.jpg"/></div> 				
+ 				<div class="col-xs-4 col-sm-4 col-md-4"><img class="img-responsive center-block" src="images/p-packet.jpg"/></div>
  			</div>
 		</div>
 		<div class="col-md-6">
@@ -56,12 +56,11 @@
 	      <div class="modal-body">
 	        <form id="email-form" novalidate>
   				<input id="email-input" class="form-control" type="email" ng-model="user.email" placeholder="Enter your email" autofocus/>
-
-			</form>
 	      </div>
-	      <div class="modal-footer">
-	        <input class="btn btn-primary" id="signup-button" type="submit" ng-click="createUser(user)" value="SUBMIT" />
-	      </div>
+	      	<div class="modal-footer">
+	        	<input class="btn btn-primary" id="signup-button" type="submit" ng-click="userAction(user, 'Reserve Kefir')" data-dismiss="modal" value="SUBMIT" />
+	      	</div>
+	      </form>
 	    </div>
 	  </div>
 	</div>
