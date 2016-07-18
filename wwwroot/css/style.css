@@ -387,6 +387,22 @@ MARKETPLACE
 .marketplace div.row::after {
 	padding:20px;
 }
+@media only screen 
+  and (min-width: 0px) 
+  and (max-width: 768px) {
+  	.mkt-wrapper {
+  		max-width:420px;
+  		margin:auto;
+  	}
+  	.market-item {
+  		margin:10px 0 0;
+  		padding-bottom:20px;
+  		border-bottom: 1px solid #F1CAC0;
+  	}
+  	.market-item:last-child {
+  		border-bottom:none;
+  	}
+  }
 .seller-photo {
 	float: left;
     width: 80px;
