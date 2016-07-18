@@ -35,7 +35,7 @@ app.config(function($routeProvider, $locationProvider) {
             controller  : 'HomeController'
         })
         .when('/products/cheese', {
-            templateUrl : '/templates/cheese.html',
+            templateUrl : '/templates/product_detail.html',
             controller  : 'HomeController'
         })
         .when('/products/cider', {
@@ -47,7 +47,7 @@ app.config(function($routeProvider, $locationProvider) {
             controller  : 'HomeController'
         })
         .when('/products/kombucha', {
-            templateUrl : '/templates/kombucha.html',
+            templateUrl : '/templates/product_detail.html',
             controller  : 'HomeController'
         })
         .when('/products/kimchi', {
