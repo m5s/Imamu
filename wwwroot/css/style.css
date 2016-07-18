@@ -266,7 +266,7 @@ PRODUCTS
   and (min-width: 0px) 
   and (max-width: 768px) {
   	.item-listing > div {
-    	max-width:360px;
+    	max-width:420px;
   	}  
   }
 .item-listing > div {
