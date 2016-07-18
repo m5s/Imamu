@@ -1,6 +1,6 @@
 (function() {
 
-  var HomeController = function($scope) {
+  var HomeController = function($scope, ngNotify) {
 
      $scope.userAction = userAction
      $scope.trackEvent = trackEvent
@@ -35,6 +35,10 @@
 
       trackEvent(action, user_hash)
       pageSpecificActions()
+      ngNotify.set('Awesome! We\'ll reach out soon.', {
+          position: 'top',
+          sticky: true
+      });
      }
 
      function trackEvent(action, info) {
@@ -216,7 +220,7 @@
 
   };
 
-  HomeController.$inject = ['$scope'];
+  HomeController.$inject = ['$scope', 'ngNotify'];
 
   angular.module('imamuApp')
     .controller('HomeController', HomeController);

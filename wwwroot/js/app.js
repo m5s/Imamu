@@ -1,4 +1,4 @@
-var app = angular.module('imamuApp', ['ngRoute', 'ngAnimate']);
+var app = angular.module('imamuApp', ['ngRoute', 'ngAnimate', 'ngNotify']);
 
  // configure our routes
 app.config(function($routeProvider, $locationProvider) {
