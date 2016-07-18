@@ -66,7 +66,7 @@
       cider = {}
       cider.name = "Cider"
       cider.large_image = "images/p-cider.jpg"
-      cider.additional_images = ["images/p-box.jpg", "images/p-cider-bottles.jpg", "images/p-cider-jar.jpg" ,"images/p-packet.jpg"]
+      cider.additional_images = ["images/p-box.jpg", "images/p-cider-bottles.jpg", "images/p-tubing.jpg" ,"images/p-packet.jpg"]
       cider.title = "Imamu Cider Starter Kit"
       cider.contains = ["Two packets of wine yeasts (Lalvin 71B)", "4 Bottles Ideal for Cider", "5 Gallon Plastic Bucket, Spigot, Lid and Airlock", "5 feet of food-grade plastic tubing", "Stainless steel spoon", "Recipe and instruction booklet" ]
       cider.product_description = "Our cider start kit is a wonderful way to start your own fermenting your own cider. Ideal for use with any local apple cider and sugar or honey. Sparkling, sweet, dry, strong ... it's up to you to craft your perfect batch!"
