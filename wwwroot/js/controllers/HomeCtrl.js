@@ -121,7 +121,7 @@
 
       pickles = {}
       pickles.name = "Pickles"
-      pickles.large_image = "images/p-pickle.jpg"
+      pickles.large_image = "images/p-pickles.jpg"
       pickles.additional_images = ["images/p-box.jpg", "images/p-largejar.jpg", "images/p-packet.jpg"]
       pickles.title = "Imamu Pickles Starter Kit"
       pickles.contains = ["Perfect Pickling Jar (odorless and self-pressurizing)", "Floating Brine Cup", "Gasket Ring to activate pickling action", "Fermentation Lock", "½ pound  of Celtic Sea Salt (for first 4 gallons)", "Recipe and instruction booklet" ]
@@ -195,10 +195,6 @@
         }  else if (product_url == "yogurt") {
           $scope.product = yogurt
         }
-
-
-      // For Testing
-      $scope.product = cheese
 
 
      }
