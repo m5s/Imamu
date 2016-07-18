@@ -267,7 +267,15 @@ PRODUCTS
   and (max-width: 768px) {
   	.item-listing > div {
     	max-width:420px;
-  	}  
+    	margin:0 auto 20px auto;
+  	}
+  	.products .row {
+		margin-top:0px;
+		margin-bottom:0px;
+	}
+  	.item-listing > img {
+  		margin:auto;
+  	}
   }
 .item-listing > div {
 	background:#3D3432;
