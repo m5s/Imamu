@@ -1,6 +1,7 @@
 body {
 	background:#FFFCF5;
 	color:#6F6664;
+	font-family: 'Roboto', sans-serif;
 }
 a, a:visited, a:hover {
 	color:#6F6664;
@@ -250,12 +251,18 @@ PRODUCTS ITEMS
 .kit-includes h3 {
 	color:#F15A34;
 }
-.kit-includes .contains > p {
-	margin-bottom:5px;
+.product-description {
+	margin-top:10px;
+	font-size:14px;
 }
-.kit-includes .contains > p:first-child {
-	font-weight:bold;
-	margin-bottom:10px;
+.kit-includes .contains > p {
+	font-weight:normal;
+	margin-bottom:2px;
+	font-size:18px;
+}
+.product-description {
+	margin:10px 0 20px !important;
+	font-size:14px !important;
 }
 .included-items {
 	background:#fff;
@@ -273,6 +280,13 @@ PRODUCTS ITEMS
 .product-price p {
 	display:inline;
 }
+@media only screen 
+  and (min-width: 992px) {
+  	.product-indent {
+    	width:80%;
+    	margin:auto;
+  	}  
+  }
 .modal-header {
 	border:none;
 	color:#6F6664;
@@ -295,4 +309,7 @@ PRODUCTS ITEMS
 	text-align:center;
 	border:none;
 
+}
+.other-kits > p {
+	margin-bottom:30px;
 }
