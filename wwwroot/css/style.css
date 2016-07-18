@@ -118,6 +118,12 @@ NAV
 .site-nav-links a:first-child {
 	margin-left:0;
 }
+.site-nav-links .selected {
+	border:2px solid #F15A34;
+	color:#F15A34;
+	padding:2px 5px;
+	border-radius: 20px;
+}
 .navbar-brand {
 	width:250px;
 }

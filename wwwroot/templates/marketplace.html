@@ -11,7 +11,7 @@
 		<span>Marketplace</span> 
 	</div>
 	<h2>
-		Interested in becoming a certified Imamu seller? <a class="learn-more" href="#/seller">Learn more</a>
+		Interested in becoming a certified Imamu seller? <a class="learn-more" ng-click="trackEvent('Market Link Clicked', {destination: 'Seller'})" href="#/seller">Learn more</a>
 	</h2>
 	<div class="row">
 		<div class="col-sm-6 col-md-6">
@@ -28,7 +28,7 @@
 			<p>Ingredients: Grass-Fed whole milk, cultures, garlic, cucumber, scallions, salt, pepper, coriander, cumin.</p>
 			<div class="product-price">
 				<span>$10</span>
-				<p><a class="btn btn-default" role="button" data-toggle="modal" data-target="#myModal">Purchase</a></p>  
+				<p><a class="btn btn-default" role="button" ng-click="trackEvent('Market Link Clicked', {destination: 'Purchase'})" data-toggle="modal" data-target="#myModal">Purchase</a></p>  
 			</div>		
 		</div>
 
@@ -48,7 +48,7 @@
 			<p>Ingredients: Pickling cucumbers, sea salt, water, apple cider vinegar, bourbon, garlic, pickling spices, mustard seeds, fresh dill, chile flakes, grape leaves.</p>
 			<div class="product-price">
 				<span>$12</span>
-				<p><a class="btn btn-default" role="button" data-toggle="modal" data-target="#myModal">Purchase</a></p>  
+				<p><a class="btn btn-default" ng-click="trackEvent('Market Link Clicked', {destination: 'Purchase'})" role="button" data-toggle="modal" data-target="#myModal">Purchase</a></p>  
 			</div>			
 		</div>
 	</div>
@@ -67,7 +67,7 @@
 			<p>Ingredients: Napa cabbage, Kosher salt, water, sweet rice flour, turbinado sugar, radish matchsticks, carrot matchsticks, green onions, scallions, garlic cloves,  ginger, onion, fish sauce, fermented salted shrimp, hot pepper flakes (gochugaru)</p>
 			<div class="product-price">
 				<span>$14</span>
-				<p><a class="btn btn-default" role="button" data-toggle="modal" data-target="#myModal">Purchase</a></p>  
+				<p><a class="btn btn-default" ng-click="trackEvent('Market Link Clicked', {destination: 'Purchase'})" role="button" data-toggle="modal" data-target="#myModal">Purchase</a></p>  
 			</div>
 		</div>
 	</div>
