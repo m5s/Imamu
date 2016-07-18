@@ -51,7 +51,6 @@
 
      function isSelected(linkId) {
       var path = $scope.pathArray[1] 
-      debugger;
       if (path == ""&& linkId == 'home') {
         return true
       } else if (path == linkId) {
