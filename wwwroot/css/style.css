@@ -369,3 +369,26 @@ MARKETPLACE
 	font-size:1.5em;
 	margin:20px 0;
 }
+/* 
+------------------
+SELLER
+------------------
+*/
+.sign-up-form {
+	max-width:400px;
+	margin:20px auto;
+}
+.sign-up-form > p:first-child {
+	font-size:2em;
+	color:#6F6664;
+	font-weight:normal;
+}
+.sign-up-form > p:nth-child(2) {
+	font-size:2em;
+	color:#F15A34;
+	font-weight:normal;
+}
+.sign-up-form input {
+	margin:20px 0;
+}
+

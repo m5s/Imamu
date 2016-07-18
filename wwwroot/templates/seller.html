@@ -1,1 +1,55 @@
 <div ng-include src="'/templates/navigation.html'"></div>
+
+<div class="pg-title">
+	<div class="valign">
+		Sell Your Creations on Imamu
+	</div>
+</div>
+<div class="container marketplace">
+	<div class="bcrumb">
+		<a href="#/">Home</a>
+		<span>  /  </span>
+		<span><a href="#/marketplace">Marketplace</a></span> 
+		<span>  /  </span>
+		<span>Sellers</span> 		
+	</div>
+	<h2>
+		What does it mean to be an Imamu seller?
+	</h2>
+	<div class="row">
+		<div class="col-md-4 text-center product-icon">
+			<div>
+				<img class="center-block valign" src="images/s-local.png"/>
+			</div>
+			<p>Connect with local buyers</p>
+			<p>List your product for sale on the Imamu marketplace and get exposure to local buyers.</p>
+		</div>
+		<div class="col-md-4 text-center product-icon">
+			<div>
+				<img class="center-block valign" src="images/s-distribution.png"/>
+			</div>
+			<p>Distribution and packaging</p>
+			<p>Get access to high quality professional containers, boxes, and labels</p>
+		</div>
+		<div class="col-md-4 text-center product-icon">
+			<div>
+				<img class="center-block valign" src="images/s-license.png"/>
+			</div>				
+			<p>Help with licensing and regulations</p>
+			<p>When you become an Imamu seller, we’ll help you sort through all licenses and insurance so that you can just focus on creating a great product.</p>
+		</div>
+		<hr>
+	</div>
+	<div class="sign-up-form text-center">
+		<p class="">Interested in learning more?</p>
+		<p>Sign up here</p>
+		<form id="email-form" novalidate>
+  			<input id="name-input" class="form-control" type="text" ng-model="user.name" placeholder="Enter your name" autofocus/>
+  			<input id="email-input" class="form-control" type="email" ng-model="user.email" placeholder="Enter your email" autofocus/>
+  			<input class="btn btn-primary" id="signup-button" type="submit" ng-click="createUser(user)" value="SUBMIT" />
+		</form>
+	</div>
+
+</div>
+
+<div ng-include src="'/templates/footer.html'"></div>
