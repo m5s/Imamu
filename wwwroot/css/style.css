@@ -54,6 +54,7 @@ footer {
 	font-size:36px;
 	color:#fff;
 }
+
 .pg-title > div {
 	margin:auto;
 	padding:0 15px;
@@ -63,9 +64,9 @@ footer {
 }
 @media only screen 
   and (min-width: 0px) 
-  and (max-width: 768px) {
-  	.pg-title > div {
-    	
+  and (max-width: 992px) {
+  	.pg-title {
+    	font-size:24px;
   	}  
   }
 @media only screen 
@@ -267,7 +268,15 @@ PRODUCTS
   and (max-width: 768px) {
   	.item-listing > div {
     	max-width:420px;
-  	}  
+    	margin:0 auto 20px auto;
+  	}
+  	.products .row {
+		margin-top:0px;
+		margin-bottom:0px;
+	}
+  	.item-listing > img {
+  		margin:auto;
+  	}
   }
 .item-listing > div {
 	background:#3D3432;
@@ -370,6 +379,7 @@ MARKETPLACE
 	font-size:14px;
 	padding:5px 10px;
 	vertical-align:5px;
+	display:inline-block;
 }
 .marketplace h2 {
 	margin-bottom:50px;
