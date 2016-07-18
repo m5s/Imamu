@@ -183,8 +183,20 @@ LEARN
     	margin:auto;
   	}  
   }
+.learn h2 {
+	font-weight:normal;
+	margin-bottom:20px;
+	color:#3D3432;
+}
+.learn h4 {
+	font-weight:normal;
+	font-size:22px;
+}
 .learn-content {
 	margin:30px 0;
+}
+.learn-content p {
+	margin:20px 0;
 }
 .section-title {
 	margin-bottom:30px;
@@ -193,7 +205,7 @@ LEARN
 	margin:30px 0;
 }
 .recipe-section p {
-	font-weight:bold;
+	font-size:18px;
 }
 
 /* 
