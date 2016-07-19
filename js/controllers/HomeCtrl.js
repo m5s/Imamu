@@ -84,8 +84,8 @@
       ]
       cheese.rating = 4
       cheese.testimonial = {
-        name: "John",
-        text: "This was the best thing of all time."
+        name: "Bridget  C",
+        text: "Amazingly easy to get started. My first batch of cheese was creamy and actually tasted healthy!"
       }
 
       cider = {}
@@ -103,8 +103,8 @@
       ]
       cider.rating = 4
       cider.testimonial = {
-        name: "John",
-        text: "This was the best thing of all time."
+        name: "Herman S",
+        text: "Have tried a couple different flavors by adding different amounts of spices (cinnamon, allspice, etc...). Makes a lot of cider!"
       }
 
       kefir = {}
@@ -122,8 +122,8 @@
       ]
       kefir.rating = 4
       kefir.testimonial = {
-        name: "John",
-        text: "This was the best thing of all time."
+        name: "Samuel W",
+        text: "Makes awesome kefir, definitely try it with raw milk."
       }
 
       kimchi = {}
@@ -133,16 +133,16 @@
       kimchi.title = "Imamu Kimchi Starter Kit"
       kimchi.contains = ["Two packets of kimichi paste", "Kimchi glass jar", "Fermentation lock lid", "Recipe and instruction booklet"]
       kimchi.product_description = "Our traditional Kimchi starter is a wonderful introduction to the pleasure of kimchi crafting. You can experiment to create your own levels of sour and spice. With no starter to maintain this culture a great choice for beginners."
-      kimchi.price = "$70"
+      kimchi.price = "$40"
       kimchi.other_kits = [
         {title: "Kombucha", url: "#/products/kombucha", image: "images/pl-kombucha.jpg"},
         {title: "Pickles", url: "#/products/pickles", image: "images/pl-pickles.jpg"},
         {title: "Cheese", url: "#/products/cheese", image: "images/pl-cheese.jpg"}
       ]
-      kimchi.rating = 4
+      kimchi.rating = 5
       kimchi.testimonial = {
-        name: "John",
-        text: "This was the best thing of all time."
+        name: "Elena  P",
+        text: "If you've never made your own kimchi before, you really should. So easy to make delicious kimchi with the Imamu starter kit!"
       }
 
       kombucha = {}
@@ -160,8 +160,8 @@
       ]
       kombucha.rating = 4
       kombucha.testimonial = {
-        name: "John",
-        text: "This was the best thing of all time."
+        name: "Kelli  R",
+        text: "Easy to get started, I am going to experiment with different flavors."
       }
 
       pickles = {}
@@ -171,16 +171,16 @@
       pickles.title = "Imamu Pickles Starter Kit"
       pickles.contains = ["Perfect Pickling Jar (odorless and self-pressurizing)", "Floating Brine Cup", "Gasket Ring to activate pickling action", "Fermentation Lock", "½ pound  of Celtic Sea Salt (for first 4 gallons)", "Recipe and instruction booklet" ]
       pickles.product_description = "Our simple pickle starter is a straightforward starter kit for a variety of pickle options. Make and store your pickles in our perfect pickling jar."
-      pickles.price = "$50"
+      pickles.price = "$40"
       pickles.other_kits = [
         {title: "Kombucha", url: "#/products/kombucha", image: "images/pl-kombucha.jpg"},
         {title: "Cider", url: "#/products/cider", image: "images/pl-cider.jpg"},
         {title: "Cheese", url: "#/products/cheese", image: "images/pl-cheese.jpg"}
       ]
-      pickles.rating = 4
+      pickles.rating = 5
       pickles.testimonial = {
-        name: "John",
-        text: "This was the best thing of all time."
+        name: "Jeremy P",
+        text: "Made a batch of spicy dill peppers with black peppercorns, red pepper flakes, garlic, and a bunch of dill. Amazing!"
       }
 
       sauerkraut = {}
@@ -196,10 +196,10 @@
         {title: "Cider", url: "#/products/cider", image: "images/pl-cider.jpg"},
         {title: "Cheese", url: "#/products/cheese", image: "images/pl-cheese.jpg"}
       ]
-      sauerkraut.rating = 4
+      sauerkraut.rating = 5
       sauerkraut.testimonial = {
-        name: "John",
-        text: "This was the best thing of all time."
+        name: "Gabriel  S",
+        text: "So easy! We have keep finding new ways to use sauerkraut because we love making it so much!"
       }
 
       tempeh = {}
@@ -209,7 +209,7 @@
       tempeh.title = "Imamu Tempeh Starter Kit"
       tempeh.contains = ["Soybeans", "Starter Culture (Rhizopus oligosporus)", "Vented Container", "Recipe and instruction booklet"]
       tempeh.product_description = "Ever think you could make your own tempeh? Our Tempeh Starter gives step by step instructions, so you'll be creating your own luscious probiotic-rich tempeh in just a few days. With no starter to maintain this culture a great choice for beginners."
-      tempeh.price = "$40"
+      tempeh.price = "$50"
       tempeh.other_kits = [
         {title: "Kombucha", url: "#/products/kombucha", image: "images/pl-kombucha.jpg"},
         {title: "Cider", url: "#/products/cider", image: "images/pl-cider.jpg"},
@@ -217,8 +217,8 @@
       ]
       tempeh.rating = 4
       tempeh.testimonial = {
-        name: "John",
-        text: "This was the best thing of all time."
+        name: "Candace  H",
+        text: "This starter kit made a very smooth tempeh with a great nutty flavor!"
       }
 
       yogurt = {}
@@ -228,16 +228,16 @@
       yogurt.title = "Imamu Yogurt Starter Kit"
       yogurt.contains = ["8 Culture Packets of Different Flavors", "Yogurt Culture Container" ,"Recipe and instruction booklet"]
       yogurt.product_description = "Our Traditional Yogurt Starter is a pleasantly tangy direct-set yogurt starter that is easy to use. Make yogurt when you need to and freeze the remaining packets for later. With no starter to maintain this culture a great choice for beginners."
-      yogurt.price = "$50"
+      yogurt.price = "$40"
       yogurt.other_kits = [
         {title: "Kombucha", url: "#/products/kombucha", image: "images/pl-kombucha.jpg"},
         {title: "Cider", url: "#/products/cider", image: "images/pl-cider.jpg"},
         {title: "Cheese", url: "#/products/cheese", image: "images/pl-cheese.jpg"}
       ]
-      yogurt.rating = 4
+      yogurt.rating = 5
       yogurt.testimonial = {
-        name: "John",
-        text: "This was the best thing of all time."
+        name: "Lorraine C",
+        text: "Easy to follow recipe. Great consistency and good flavor."
       }
       // debugger;
         product_url = $scope.pathArray[2]
