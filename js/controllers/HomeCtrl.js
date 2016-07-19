@@ -177,7 +177,7 @@
       pickles.rating = 5
       pickles.testimonial = {
         name: "Jeremy P",
-        text: "This was the best thing of all time."
+        text: "Made a batch of spicy dill peppers with black peppercorns, red pepper flakes, garlic, and a bunch of dill. Amazing!"
       }
 
       sauerkraut = {}
@@ -196,7 +196,7 @@
       sauerkraut.rating = 5
       sauerkraut.testimonial = {
         name: "Gabriel  S",
-        text: "This was the best thing of all time."
+        text: "So easy! We have keep finding new ways to use sauerkraut because we love making it so much!"
       }
 
       tempeh = {}
@@ -215,7 +215,7 @@
       tempeh.rating = 4
       tempeh.testimonial = {
         name: "Candace  H",
-        text: "This was the best thing of all time."
+        text: "This starter kit made a very smooth tempeh with a great nutty flavor!"
       }
 
       yogurt = {}
