@@ -68,6 +68,23 @@
 	    </div>
 	  </div>
 	</div>
+	
+	<div ng-if="product.rating == 5" class="5-stars">
+		<img src="">5 Testing
+	</div>
+	
+	<div ng-if="product.rating == 4" class="4-stars">
+		<img src="">4 Testing
+	</div>
+
+	<div class="testimonial">
+		<p>
+			{{product.testimonial.name}}
+		</p>
+		<p>
+			{{product.testimonial.text}}
+		</p>
+	</div>
 
 	<div class="other-kits">
 		<p>Other kits you might enjoy</p>

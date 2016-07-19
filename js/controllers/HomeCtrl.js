@@ -79,6 +79,11 @@
         {title: "Cider", url: "#/products/cider", image: "images/pl-cider.jpg"},
         {title: "Yogurt", url: "#/products/yogurt", image: "images/pl-yogurt.jpg"}
       ]
+      cheese.rating = 4
+      cheese.testimonial = {
+        name: "John",
+        text: "This was the best thing of all time."
+      }
 
       cider = {}
       cider.name = "Cider"
@@ -93,6 +98,11 @@
         {title: "Pickles", url: "#/products/pickles", image: "images/pl-pickles.jpg"},
         {title: "Cheese", url: "#/products/cheese", image: "images/pl-cheese.jpg"}
       ]
+      cider.rating = 4
+      cider.testimonial = {
+        name: "John",
+        text: "This was the best thing of all time."
+      }
 
       kefir = {}
       kefir.name = "Kefir"
@@ -107,6 +117,11 @@
         {title: "Pickles", url: "#/products/pickles", image: "images/pl-pickles.jpg"},
         {title: "Cheese", url: "#/products/cheese", image: "images/pl-cheese.jpg"}
       ]
+      kefir.rating = 4
+      kefir.testimonial = {
+        name: "John",
+        text: "This was the best thing of all time."
+      }
 
       kimchi = {}
       kimchi.name = "Kimchi"
@@ -121,6 +136,11 @@
         {title: "Pickles", url: "#/products/pickles", image: "images/pl-pickles.jpg"},
         {title: "Cheese", url: "#/products/cheese", image: "images/pl-cheese.jpg"}
       ]
+      kimchi.rating = 4
+      kimchi.testimonial = {
+        name: "John",
+        text: "This was the best thing of all time."
+      }
 
       kombucha = {}
       kombucha.name = "Kombucha"
@@ -135,6 +155,11 @@
         {title: "Pickles", url: "#/products/pickles", image: "images/pl-pickles.jpg"},
         {title: "Cheese", url: "#/products/cheese", image: "images/pl-cheese.jpg"}
       ]
+      kombucha.rating = 4
+      kombucha.testimonial = {
+        name: "John",
+        text: "This was the best thing of all time."
+      }
 
       pickles = {}
       pickles.name = "Pickles"
@@ -149,6 +174,11 @@
         {title: "Cider", url: "#/products/cider", image: "images/pl-cider.jpg"},
         {title: "Cheese", url: "#/products/cheese", image: "images/pl-cheese.jpg"}
       ]
+      pickles.rating = 4
+      pickles.testimonial = {
+        name: "John",
+        text: "This was the best thing of all time."
+      }
 
       sauerkraut = {}
       sauerkraut.name = "Sauerkraut"
@@ -163,6 +193,11 @@
         {title: "Cider", url: "#/products/cider", image: "images/pl-cider.jpg"},
         {title: "Cheese", url: "#/products/cheese", image: "images/pl-cheese.jpg"}
       ]
+      sauerkraut.rating = 4
+      sauerkraut.testimonial = {
+        name: "John",
+        text: "This was the best thing of all time."
+      }
 
       tempeh = {}
       tempeh.name = "Tempeh"
@@ -177,6 +212,11 @@
         {title: "Cider", url: "#/products/cider", image: "images/pl-cider.jpg"},
         {title: "Cheese", url: "#/products/cheese", image: "images/pl-cheese.jpg"}
       ]
+      tempeh.rating = 4
+      tempeh.testimonial = {
+        name: "John",
+        text: "This was the best thing of all time."
+      }
 
       yogurt = {}
       yogurt.name = "Yogurt"
@@ -191,6 +231,11 @@
         {title: "Cider", url: "#/products/cider", image: "images/pl-cider.jpg"},
         {title: "Cheese", url: "#/products/cheese", image: "images/pl-cheese.jpg"}
       ]
+      yogurt.rating = 4
+      yogurt.testimonial = {
+        name: "John",
+        text: "This was the best thing of all time."
+      }
       // debugger;
         product_url = $scope.pathArray[2]
         if (product_url == "cheese"){
