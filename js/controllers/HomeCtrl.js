@@ -130,7 +130,7 @@
       kimchi.title = "Imamu Kimchi Starter Kit"
       kimchi.contains = ["Two packets of kimichi paste", "Kimchi glass jar", "Fermentation lock lid", "Recipe and instruction booklet"]
       kimchi.product_description = "Our traditional Kimchi starter is a wonderful introduction to the pleasure of kimchi crafting. You can experiment to create your own levels of sour and spice. With no starter to maintain this culture a great choice for beginners."
-      kimchi.price = "$70"
+      kimchi.price = "$40"
       kimchi.other_kits = [
         {title: "Kombucha", url: "#/products/kombucha", image: "images/pl-kombucha.jpg"},
         {title: "Pickles", url: "#/products/pickles", image: "images/pl-pickles.jpg"},
@@ -168,7 +168,7 @@
       pickles.title = "Imamu Pickles Starter Kit"
       pickles.contains = ["Perfect Pickling Jar (odorless and self-pressurizing)", "Floating Brine Cup", "Gasket Ring to activate pickling action", "Fermentation Lock", "½ pound  of Celtic Sea Salt (for first 4 gallons)", "Recipe and instruction booklet" ]
       pickles.product_description = "Our simple pickle starter is a straightforward starter kit for a variety of pickle options. Make and store your pickles in our perfect pickling jar."
-      pickles.price = "$50"
+      pickles.price = "$40"
       pickles.other_kits = [
         {title: "Kombucha", url: "#/products/kombucha", image: "images/pl-kombucha.jpg"},
         {title: "Cider", url: "#/products/cider", image: "images/pl-cider.jpg"},
@@ -206,7 +206,7 @@
       tempeh.title = "Imamu Tempeh Starter Kit"
       tempeh.contains = ["Soybeans", "Starter Culture (Rhizopus oligosporus)", "Vented Container", "Recipe and instruction booklet"]
       tempeh.product_description = "Ever think you could make your own tempeh? Our Tempeh Starter gives step by step instructions, so you'll be creating your own luscious probiotic-rich tempeh in just a few days. With no starter to maintain this culture a great choice for beginners."
-      tempeh.price = "$40"
+      tempeh.price = "$50"
       tempeh.other_kits = [
         {title: "Kombucha", url: "#/products/kombucha", image: "images/pl-kombucha.jpg"},
         {title: "Cider", url: "#/products/cider", image: "images/pl-cider.jpg"},
@@ -225,7 +225,7 @@
       yogurt.title = "Imamu Yogurt Starter Kit"
       yogurt.contains = ["8 Culture Packets of Different Flavors", "Yogurt Culture Container" ,"Recipe and instruction booklet"]
       yogurt.product_description = "Our Traditional Yogurt Starter is a pleasantly tangy direct-set yogurt starter that is easy to use. Make yogurt when you need to and freeze the remaining packets for later. With no starter to maintain this culture a great choice for beginners."
-      yogurt.price = "$50"
+      yogurt.price = "$40"
       yogurt.other_kits = [
         {title: "Kombucha", url: "#/products/kombucha", image: "images/pl-kombucha.jpg"},
         {title: "Cider", url: "#/products/cider", image: "images/pl-cider.jpg"},
