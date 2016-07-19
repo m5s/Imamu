@@ -43,6 +43,9 @@
 
      function trackEvent(action, info) {
         mixpanel.track(action, info)
+        if (action == "Product Reserve Step One"){
+          fbq('track', 'AddToCart');
+        }
      }
 
      function pageSpecificActions(){
