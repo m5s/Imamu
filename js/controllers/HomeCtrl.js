@@ -81,8 +81,8 @@
       ]
       cheese.rating = 4
       cheese.testimonial = {
-        name: "John",
-        text: "This was the best thing of all time."
+        name: "Bridget  C",
+        text: "Amazingly easy to get started. My first batch of cheese was creamy and actually tasted healthy!"
       }
 
       cider = {}
@@ -100,8 +100,8 @@
       ]
       cider.rating = 4
       cider.testimonial = {
-        name: "John",
-        text: "This was the best thing of all time."
+        name: "Herman S",
+        text: "Have tried a couple different flavors by adding different amounts of spices (cinnamon, allspice, etc...). Makes a lot of cider!"
       }
 
       kefir = {}
@@ -119,8 +119,8 @@
       ]
       kefir.rating = 4
       kefir.testimonial = {
-        name: "John",
-        text: "This was the best thing of all time."
+        name: "Samuel W",
+        text: "Makes awesome kefir, definitely try it with raw milk."
       }
 
       kimchi = {}
@@ -136,10 +136,10 @@
         {title: "Pickles", url: "#/products/pickles", image: "images/pl-pickles.jpg"},
         {title: "Cheese", url: "#/products/cheese", image: "images/pl-cheese.jpg"}
       ]
-      kimchi.rating = 4
+      kimchi.rating = 5
       kimchi.testimonial = {
-        name: "John",
-        text: "This was the best thing of all time."
+        name: "Elena  P",
+        text: "If you've never made your own kimchi before, you really should. So easy to make delicious kimchi with the Imamu starter kit!"
       }
 
       kombucha = {}
@@ -157,8 +157,8 @@
       ]
       kombucha.rating = 4
       kombucha.testimonial = {
-        name: "John",
-        text: "This was the best thing of all time."
+        name: "Kelli  R",
+        text: "Easy to get started, I am going to experiment with different flavors."
       }
 
       pickles = {}
@@ -174,9 +174,9 @@
         {title: "Cider", url: "#/products/cider", image: "images/pl-cider.jpg"},
         {title: "Cheese", url: "#/products/cheese", image: "images/pl-cheese.jpg"}
       ]
-      pickles.rating = 4
+      pickles.rating = 5
       pickles.testimonial = {
-        name: "John",
+        name: "Jeremy P",
         text: "This was the best thing of all time."
       }
 
@@ -193,9 +193,9 @@
         {title: "Cider", url: "#/products/cider", image: "images/pl-cider.jpg"},
         {title: "Cheese", url: "#/products/cheese", image: "images/pl-cheese.jpg"}
       ]
-      sauerkraut.rating = 4
+      sauerkraut.rating = 5
       sauerkraut.testimonial = {
-        name: "John",
+        name: "Gabriel  S",
         text: "This was the best thing of all time."
       }
 
@@ -214,7 +214,7 @@
       ]
       tempeh.rating = 4
       tempeh.testimonial = {
-        name: "John",
+        name: "Candace  H",
         text: "This was the best thing of all time."
       }
 
@@ -231,10 +231,10 @@
         {title: "Cider", url: "#/products/cider", image: "images/pl-cider.jpg"},
         {title: "Cheese", url: "#/products/cheese", image: "images/pl-cheese.jpg"}
       ]
-      yogurt.rating = 4
+      yogurt.rating = 5
       yogurt.testimonial = {
-        name: "John",
-        text: "This was the best thing of all time."
+        name: "Lorraine C",
+        text: "Easy to follow recipe. Great consistency and good flavor."
       }
       // debugger;
         product_url = $scope.pathArray[2]
