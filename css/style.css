@@ -459,4 +459,80 @@ SELLER
 .sign-up-form input {
 	margin:20px 0;
 }
+/* 
+------------------
+SUB
+------------------
+*/
+.sub {
+	padding:20px 0;
+}
+.sub .sub-header {
+	text-align:center;
+	margin-bottom:40px;
+}
+.sub-header h2 {
+	font-weight:bold;
+}
+.sub-header p {
+	font-size:16px;
+}
+.sub-caption{
+	color: #6F6664;
+    font-size: 18px;
+    margin:10px 0;
+}
+.sub-button {
+	margin:20px auto;
+}
 
+.sub .try {
+	margin:auto;
+	text-align:center;
+	margin-bottom:20px;
+}
+.inbox {
+	color :#FFFCF5;
+}
+.sub-footer {
+	margin-top:0;
+}
+.signup-icon > p:nth-child(2) {
+	font-size:18px;
+	color:#6F6664;
+	font-weight:normal;
+}
+.signup-icon > p {
+	color:#F15A34;
+	font-weight:bold;
+	font-size:20px;
+}
+.signup-title {
+	font-size:24px;
+	font-weight:bold;
+	margin:50px 0 20px;
+}
+.plan-type {
+	font-size:12px;
+	margin:20px 0;
+}
+@media only screen 
+  and (min-width: 0px) 
+  and (max-width: 768px) {
+  	.plan-length .btn {
+  		display:block;
+  		margin:10px 0;
+  	}
+  }
+ .gotosubmit {
+ 	text-align:center;
+ 	margin:50px 0;
+ }
+ .gotosubmit a {
+ 	font-size:24px;
+ 	color:#F15A34 !important;
+ 	border: 4px solid #F15A34;
+ 	border-radius:20px;
+ 	font-weight:bold;
+ 	padding:5px 10px;
+ }

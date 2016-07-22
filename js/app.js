@@ -66,6 +66,14 @@ app.config(function($routeProvider, $locationProvider) {
             templateUrl : '/templates/product_detail.html',
             controller  : 'HomeController'
         })
+        .when('/sub', {
+            templateUrl : '/templates/sub.html',
+            controller  : 'HomeController'
+        })
+        .when('/signup', {
+            templateUrl : '/templates/signup.html',
+            controller  : 'HomeController'
+        })
         .otherwise( {redirectTo: '/'});
 
 });

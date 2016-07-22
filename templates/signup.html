@@ -1,0 +1,106 @@
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#/sub">
+        <img src="images/imamu.png"/>
+      </a>
+    </div>
+
+  </div>
+</nav>
+<div class="pg-title">
+  <div class="valign">
+    Join the food revolution
+  </div>
+</div>
+
+<div class="container products">
+  <div class="bcrumb">
+    <span>Choose your plan</span>
+    <span>  /  </span>
+    <span>Sign up</span> 
+  </div>
+  <h2>
+    Choose your plan type and length. You can cancel at any time.
+  </h2>
+
+<div class="text-center">
+<p class="signup-title">1. Choose your plan type</p>
+<div data-toggle="buttons">
+  <label class="btn btn-primary">
+    <input type="radio" name="options" id="option1"> CHOOSE PRO
+  </label>
+  <label class="btn btn-primary">
+    <input type="radio" name="options" id="option3"> CHOOSE STARTER
+  </label>
+</div>
+    <div class="plan-type">
+    <p>The pro plan contains more advanced recipes and techniques for cooks with experience creating fermented food</p>
+    <p>The starter plan contains more standard recipes for cooks getting started. You can upgrade to pro at any time.</p>
+    </div>
+<p class="signup-title">2. Choose your plan length</p>
+
+<div data-toggle="buttons" class="plan-length">
+  <label class="btn btn-primary">
+    <input ng-click="trackEvent('SubPlanLength Linked Clicked', {destination: '1Month'})" type="radio" name="plan" id="option1"> 1 Month ($40)
+  </label>
+  <label class="btn btn-primary">
+    <input ng-click="trackEvent('SubPlanLength Linked Clicked', {destination: '6Month'})" type="radio" name="plan" id="option2"> 6 Months ($200)
+  </label>
+  <label class="btn btn-primary">
+    <input ng-click="trackEvent('SubPlanLength Linked Clicked', {destination: '12Month'})" type="radio" name="plan" id="option3"> 12 Months ($350 - best value)
+  </label>
+</div>
+
+<p class="signup-title">3. Tell us if you'd prefer to NOT receive kits with:</p>
+  <div class="checkbox">
+    <label>
+      <input type="checkbox"> Dairy
+    </label>
+    <label>
+      <input type="checkbox"> Soy
+    </label>
+       <label>
+      <input type="checkbox"> Nuts
+    </label>
+    <label>
+      <input type="checkbox"> Wheat
+    </label>
+    <label>
+      <input type="checkbox"> Kombucha
+    </label>
+  </div>
+</div>
+  
+  <p class="gotosubmit">
+    <a role="button" data-toggle="modal" data-target="#myModal" ng-click="trackEvent('Subscription Reserve Clicked', {product: Subscription })">Looks Good &raquo;</a>
+  </p>
+
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header text-center">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel">RESERVE YOUR BOX</h4>
+          <p>Sorry! We're currently oversubscribed but more will be available soon!</p>
+          <p>No credit card required for reservation</p>
+        </div>
+        <div class="modal-body">
+          <form id="email-form" novalidate>
+          <input id="email-input" class="form-control" type="email" ng-model="user.email" placeholder="Enter your email" autofocus/>
+
+      </form>
+        </div>
+        <div class="modal-footer">
+          <input class="btn btn-primary" id="signup-button" type="submit" ng-click="userAction(user, 'subscription' + ' Reserved')" value="SUBMIT" data-dismiss="modal"/>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  </div>
+ <footer class="sub-footer">
+  <p>&copy; 2016 Imamu</p>
+</footer>
+
