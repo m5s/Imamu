@@ -14,6 +14,10 @@ app.config(function($routeProvider, $locationProvider) {
             templateUrl : '/templates/marketplace.html',
             controller  : 'HomeController'
         })
+        .when('/market', {
+            templateUrl : '/templates/market_products.html',
+            controller  : 'HomeController'
+        })
         .when('/products', {
             templateUrl : '/templates/products.html',
             controller  : 'HomeController'
@@ -64,6 +68,46 @@ app.config(function($routeProvider, $locationProvider) {
         })
         .when('/products/tempeh', {
             templateUrl : '/templates/product_detail.html',
+            controller  : 'HomeController'
+        })
+        .when('/market/market_product_detail', {
+            templateUrl : '/templates/market_product_detail.html',
+            controller  : 'HomeController'
+        })
+        .when('/market/yogurt', {
+            templateUrl : '/templates/market_product_detail.html',
+            controller  : 'HomeController'
+        })
+        .when('/market/cheese', {
+            templateUrl : '/templates/market_product_detail.html',
+            controller  : 'HomeController'
+        })
+        .when('/market/cider', {
+            templateUrl : '/templates/market_product_detail.html',
+            controller  : 'HomeController'
+        })
+        .when('/market/kefir', {
+            templateUrl : '/templates/market_product_detail.html',
+            controller  : 'HomeController'
+        })
+        .when('/market/kombucha', {
+            templateUrl : '/templates/market_product_detail.html',
+            controller  : 'HomeController'
+        })
+        .when('/market/kimchi', {
+            templateUrl : '/templates/market_product_detail.html',
+            controller  : 'HomeController'
+        })
+        .when('/market/pickles', {
+            templateUrl : '/templates/market_product_detail.html',
+            controller  : 'HomeController'
+        })
+        .when('/market/sauerkraut', {
+            templateUrl : '/templates/market_product_detail.html',
+            controller  : 'HomeController'
+        })
+        .when('/market/tempeh', {
+            templateUrl : '/templates/market_product_detail.html',
             controller  : 'HomeController'
         })
         .when('/sub', {

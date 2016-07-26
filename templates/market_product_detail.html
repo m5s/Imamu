@@ -1,63 +1,69 @@
-<div ng-include src="'/templates/navigation.html'"></div>
+<div ng-include src="'/templates/clean_nav.html'"></div>
 <div class="pg-title">
 	<div class="valign">
-		Everything you need to craft delicious food
+		The best of the Imamu Community
 	</div>
 </div>
 <div class="container learn">
 	<div class="bcrumb">
 		<a>Home</a>
 		<span>  /  </span>
-		<span>Starter Kits</span>
+		<span>Products</span>
 		<span>  /  </span>
-		<span>{{product.name}} Starter Kit</span>	
+		<span>{{product.seller.name}}'s {{product.name}}</span>	
 	</div>
 	<div class="kit-includes row">
 		<div class="col-md-6">
  			<div class="row">
 	 			<img class="img-responsive" src="{{product.large_image}}"/>
  			</div>
- 				<div ng-if="product.rating == 5" class="5-stars stars">
-					<p>AVERAGE RATING</p><img src="images/5stars.png"/>
-				</div>
-
-				<div ng-if="product.rating == 4" class="4-stars stars">
-					<p>AVERAGE RATING</p><img src="images/4stars.png"/>
-				</div>
- 			<!--
- 			<div class="row included-items">
- 				<div ng-if="product.additional_images.length == 2" class="col-xs-6 col-sm-6 col-md-6" ng-repeat="image_url in product.additional_images">
- 					<img class="img-responsive center-block" src="{{image_url}}"/>
+ 			<div class="row">
+ 				<div class="seller-info seller-profile-pic">
+ 					<img src="{{product.seller.profile_pic}}">
  				</div>
- 				<div ng-if="product.additional_images.length == 3" class="col-xs-4 col-sm-4 col-md-4" ng-repeat="image_url in product.additional_images">
- 					<img class="img-responsive center-block" src="{{image_url}}"/>
+ 				<div class="seller-info seller-bio">
+ 					<p>{{product.seller.name}}</p>
+ 					{{product.seller.bio}}
  				</div>
- 				<div ng-if="product.additional_images.length == 4" class="col-xs-3 col-sm-3 col-md-3" ng-repeat="image_url in product.additional_images">
- 					<img class="img-responsive center-block" src="{{image_url}}"/>
+ 				<div class="seller-info seller-verifications">
+ 					<span class="attributes" ng-repeat="attribute in product.seller.attributes"> {{attribute}} <span class="divider"> | </span></span>
  				</div>
  			</div>
- 			-->
 		</div>
 		<div class="col-md-6">
 			<div class="product-indent">
 				<h3>{{product.title}}</h3>
 				<div class="contains">
-					<p>Every kit comes with:</p>
-					<p ng-repeat="item in product.contains">{{item}}</p>
+					<p>Made with:</p>
+					<ul>
+						<li ng-repeat="item in product.contains">{{item}}</li>
+					</ul>
 					<p class="product-description">
 						{{product.product_description}}
 					</p>
-					<div class="testimonial">
-						<p>USER REVIEWS</p>
-						<p>
-							{{product.testimonial.text}} - <span>{{product.testimonial.name}}
-							<span>
-						</p>
-				</div>
 					<div class="product-price">
 						<span>{{product.price}}</span>
-						<p><a class="btn btn-default" role="button" data-toggle="modal" data-target="#myModal" ng-click="trackEvent('Product Reserve Step One', {product: product.name })">Reserve My Kit</a></p>  
+						<p><a class="btn btn-default" role="button" data-toggle="modal" data-target="#myModal" ng-click="trackEvent('Product Reserve Step One', {product: product.name })">Reserve</a></p>  
 					</div>
+					<div class="testimonial">
+						<div ng-if="product.rating == 5" class="5-stars stars">
+							<p>AVERAGE RATING</p><img src="images/5stars.png"/>
+						</div>
+
+						<div ng-if="product.rating == 4" class="4-stars stars">
+							<p>AVERAGE RATING</p><img src="images/4stars.png"/>
+						</div>
+						<p>USER REVIEWS</p>
+						<div class="user-review-wrapper" ng-repeat="review in product.testimonials">
+							<div class="user-review-info user-review-picture">
+								<img src="{{review.profile_pic}}">
+							</div>
+							<div class="user-review-info user-review-text">
+								<p>{{review.text}} - <span>{{review.name}}</p>
+							</div>
+						</div>
+				</div>
+					
 				</div>
 			</div>
 		</div>

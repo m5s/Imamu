@@ -1,0 +1,67 @@
+/*Product */
+
+.market-products-image-wrapper{
+	position: relative;
+	margin: 0px !important;
+	padding: 0px !important;
+}
+
+.small-seller-profile-pic{
+	width: 50px;
+	border-radius: 100%;
+	position: absolute;
+    top: 5px;
+    left: 5px;
+    border: 1px solid white;
+}
+
+
+
+/*Seller*/
+
+.seller-info{
+	display: block;
+	margin: 10px auto;
+}
+
+.seller-profile-pic img {
+	width: 50px;
+	border-radius: 100%;
+	border: 1px solid #F15A34;
+}
+
+.seller-bio{
+
+}
+
+.attributes {
+	color: #F15A34;
+}
+
+.divider {
+	color: #6F6664;
+}
+
+/*Review*/
+.user-review-wrapper{
+	display: inline-block;
+	margin: 10px auto;
+}
+
+.user-review-info{
+	float: left;
+}
+
+.user-review-picture {
+	width: 50px;
+    margin: 0px 10px;
+}
+
+.user-review-picture img {
+	width: 50px;
+	border-radius: 100%;
+}
+
+.user-review-text{
+	width: 250px;
+}
