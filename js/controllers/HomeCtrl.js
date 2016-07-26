@@ -36,7 +36,6 @@
 
       user_hash.email = user.email
       user_hash.name = user.name
-
       trackEvent(action, user_hash)
       pageSpecificActions()
       ngNotify.set('Awesome! We\'ll reach out soon.', {
