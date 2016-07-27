@@ -20,6 +20,10 @@
  			<div class="row">
  				<div class="seller-info seller-profile-pic">
  					<img src="{{product.seller.profile_pic}}">
+ 					<div ng-show="proChef" class="professional-chef-detail-wrapper">
+ 						Professional Chef
+ 						<img class="professional-chef-img img-responsive" src="images/chef-hat.png"/>
+ 					</div>
  				</div>
  				<div class="seller-info seller-bio">
  					<p>{{product.seller.name}}</p>
@@ -41,9 +45,15 @@
 					<p class="product-description">
 						{{product.product_description}}
 					</p>
-					<div class="product-price">
-						<span>{{product.price}}</span>
-						<p><a class="btn btn-default" role="button" data-toggle="modal" data-target="#myModal" ng-click="trackEvent('Marketplace Product Reserve Step One', {product: product.name })">Reserve</a></p>  
+					<div class="product-input-wrapper">
+						<p class="text-center"><span class="highlight">{{product.amount_remaining}}</span>/50 remaining</p>
+						<div>
+							Enter your email to receive <span class="highlight">20% off</span> and reserve your {{product.name}}
+							<form>
+								<input class="form-control market-email-input" placeholder="email" type="email" ng-model="user.email" >
+								<input type="submit" class="btn btn-default btn-discount" ng-click="userAction(user, 'Market ' + product.name + ' Reserved')">
+							</form>
+						</div>
 					</div>
 					<div class="testimonial">
 						<div ng-if="product.rating == 5" class="5-stars stars">

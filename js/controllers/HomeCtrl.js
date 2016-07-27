@@ -275,7 +275,7 @@
       cheese.title = "Joyce's Nut-tastic Cheese"
       cheese.contains = ["Starter culture", "Renet", "Cashews", "Cinnamon", "Dried Cherries"]
       cheese.product_description = "My homemade cheese is a rich blend of flavors. It is delicious. Personally, I think it is perfect when spread on gluten-free bread. I love to add hemp seeds and top it with honey but feel free to experiment!"
-      cheese.price = "$7"
+      cheese.amount_remaining = "7"
       cheese.other_kits = [
         {title: "Ben's Kombucha", url: "#/products/kombucha", image: "images/pl-kombucha.jpg"},
         {title: "Kirk's Cider", url: "#/products/cider", image: "images/pl-cider.jpg"},
@@ -309,7 +309,7 @@
       cider.title = "Kirk's Cider"
       cider.contains = ["Two packets of wine yeasts (Lalvin 71B)", "5lbs of Apples", "Cinnamon", "Brown Sugar"]
       cider.product_description = "My starter juice is from a farm just nearby my parents house in Saratoga, Springs. I take great care in my cider and I hope you enjoy it."
-      cider.price = "$15"
+      cider.amount_remaining = "15"
       cider.other_kits = [
         {title: "Ben's Kombucha", url: "#/products/kombucha", image: "images/pl-kombucha.jpg"},
         {title: "Mica's Pickles", url: "#/products/pickles", image: "images/pl-pickles.jpg"},
@@ -343,7 +343,7 @@
       kefir.title = "Jeremy's Kefir"
       kefir.contains = ["2 packets of Kefir starter (grains)", "Recipe (in case you're curious", "Fresh Milk" ]
       kefir.product_description = "My kefir is like a spartan army for your body :). It has complete proteins, B vitamins, minerals, and can help prevent the growth of harmful bacteria. Give it a try!"
-      kefir.price = "$8"
+      kefir.amount_remaining = "8"
       kefir.other_kits = [
         {title: "Ben's Kombucha", url: "#/products/kombucha", image: "images/pl-kombucha.jpg"},
         {title: "Mica's Pickles", url: "#/products/pickles", image: "images/pl-pickles.jpg"},
@@ -377,7 +377,7 @@
       kimchi.title = "Zoe's Kimchi"
       kimchi.contains = ["Two packets of kimichi paste", "cabbage", "pepper flakes", "sugar", "nori", "daikon", "scallions"]
       kimchi.product_description = "Our traditional Kimchi starter is a wonderful introduction to the pleasure of kimchi crafting. You can experiment to create your own levels of sour and spice. With no starter to maintain this culture a great choice for beginners."
-      kimchi.price = "$12"
+      kimchi.amount_remaining = "13"
       kimchi.other_kits = [
         {title: "Ben's Kombucha", url: "#/products/kombucha", image: "images/pl-kombucha.jpg"},
         {title: "Mica's Pickles", url: "#/products/pickles", image: "images/pl-pickles.jpg"},
@@ -400,7 +400,7 @@
       kimchi.seller = {
         profile_pic: "images/zoe.jpg",
         name: "Zoe",
-        bio: "I ran a farm upstate before moving back to NYC. To this day I still get my main ingredients from the exact same farm. It is my hope that those who try my food can taste the difference :)",
+        bio: "I'm a sous-chef at a french restuarant in the west village. Before that, I ran a farm upstate but I moved to NYC to pursue my dream of becoming a chef. To this day I still get my main ingredients from the exact same farm. It is my hope that those who try my food can taste the difference :)",
         attributes: ["4+ years experience", "Imamu Expert"]
       }
 
@@ -411,7 +411,7 @@
       kombucha.title = "Ben's Kombucha"
       kombucha.contains = ["Black tea", "SCOBY (Symbiotic Colony of Yeast and Bacteria)", "½ cup of starter Kombucha"]
       kombucha.product_description = "Ben's black tea kombucha will knock your socks off. It is tart but with an underlying sweetness. Oh and it's fizzy!"
-      kombucha.price = "$8"
+      kombucha.amount_remaining = "8"
       kombucha.other_kits = [
         {title: "Sarah's Yogurt", url: "#/products/yogurt", image: "images/pl-yogurt.jpg"},
         {title: "Mica's Pickles", url: "#/products/pickles", image: "images/pl-pickles.jpg"},
@@ -446,7 +446,7 @@
       pickles.title = "Mica's Pickles"
       pickles.contains = ["½ pound  of Celtic Sea Salt (for first 4 gallons)", "Pickles", "4-6 grape leaves", "6-9 cloves garlic, peeled", "2 Large Heads of Dill", "Black Peppercorns", "Red Pepper Flakes", "Mustard seeds"]
       pickles.product_description = "Natural, salty, and seasoned with dill and garlic. Classic!"
-      pickles.price = "$7"
+      pickles.amount_remaining = "11"
       pickles.other_kits = [
         {title: "Ben's Kombucha", url: "#/products/kombucha", image: "images/pl-kombucha.jpg"},
         {title: "Kirk's Cider", url: "#/products/cider", image: "images/pl-cider.jpg"},
@@ -469,7 +469,7 @@
       pickles.seller = {
         profile_pic: "images/mica.jpg",
         name: "Mica",
-        bio: "My daughter had pneumonia when she was younger and the only thing that seems to keep her immune system strong enough is fermented food (and probiotics). That is why I started fermenting food and I just fell in love with it. ",
+        bio: "During the day, I'm the head chef at a vegan restaurant in Soho. At night, I experiment with different pickle recipes. Most chefs don't like to cook at home but my passion for probiotics started because of my family. My daughter had pneumonia when she was younger and the only thing that seems to keep her immune system strong enough is fermented food (and probiotics). That is why I started fermenting food and I just fell in love with it. ",
         attributes: ["7+ years experience", "Imamu Expert"]
       }
 
@@ -480,7 +480,7 @@
       sauerkraut.title = "Luke's Sauerkraut"
       sauerkraut.contains = ["Cabbage", "Kosher Salt"]
       sauerkraut.product_description = "Classic sauerkraut made by a sauerkraut pro."
-      sauerkraut.price = "$9"
+      sauerkraut.amount_remaining = "9"
       sauerkraut.other_kits = [
         {title: "Ben's Kombucha", url: "#/products/kombucha", image: "images/pl-kombucha.jpg"},
         {title: "Kirk's Cider", url: "#/products/cider", image: "images/pl-cider.jpg"},
@@ -514,7 +514,7 @@
       tempeh.title = "Megan's Tempeh"
       tempeh.contains = ["Soybeans", "Peanuts", "Cocunut Flakes", "Starter Culture (Rhizopus oligosporus)"]
       tempeh.product_description = "A rare combo of peanuts and coconut flakes. I combined two of my favorite types of tempeh (bongkrek & oncom). It is to die for."
-      tempeh.price = "$7"
+      tempeh.amount_remaining = "16"
       tempeh.other_kits = [
         {title: "Ben's Kombucha", url: "#/products/kombucha", image: "images/pl-kombucha.jpg"},
         {title: "Kirk's Cider", url: "#/products/cider", image: "images/pl-cider.jpg"},
@@ -542,7 +542,7 @@
       yogurt.title = "Sarah's Yogurt"
       yogurt.contains = ["Fresh Culture", "Raw Milk" ,"Organic Yogurt"]
       yogurt.product_description = "My yogurt is made with organic local raw milk from a farm about an hour outside NYC. It is a bit thicker than your average homemade yogurt (closer to the texture of Greek yogurt). I recommend mixing it with chopped nuts, seeds, coconut flakes or raw manuka honey for a delectable snack!"
-      yogurt.price = "$6"
+      yogurt.amount_remaining = "6"
       yogurt.other_kits = [
         {title: "Ben's Kombucha", url: "#/products/kombucha", image: "images/pl-kombucha.jpg"},
         {title: "Kirk's Cider", url: "#/products/cider", image: "images/pl-cider.jpg"},
@@ -564,9 +564,10 @@
       yogurt.seller = {
         profile_pic: "images/sarah.jpg",
         name: "Sarah",
-        bio: "I grew up milking cows on my parents farm. Some families make cookies, mine makes yogurt. Try my yogurt and I promise you won't be disappointed. It's made with love.",
+        bio: "I'm currently the head chef at Grey's Cafe in Williamsburg. Healthy living is in my blood. I grew up milking cows on my parents farm. Some families make cookies, mine makes yogurt. Try my yogurt and I promise you won't be disappointed. It's made with love.",
         attributes: ["8+ years experience", "Imamu Expert"]
       }
+
       // debugger;
         product_url = $scope.pathArray[2]
         if (product_url == "cheese"){
@@ -577,16 +578,19 @@
           $scope.product = kefir
         } else if (product_url == "kimchi") {
           $scope.product = kimchi
+          $scope.proChef = true
         } else if (product_url == "kombucha") {
           $scope.product = kombucha
         } else if (product_url == "pickles") {
            $scope.product = pickles
+           $scope.proChef = true
         } else if (product_url == "sauerkraut") {
            $scope.product = sauerkraut
         }  else if (product_url == "tempeh") {
            $scope.product = tempeh
         }  else if (product_url == "yogurt") {
           $scope.product = yogurt
+          $scope.proChef = true
         }
 
 
