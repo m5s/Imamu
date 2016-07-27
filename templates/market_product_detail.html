@@ -1,0 +1,120 @@
+<div ng-include src="'/templates/clean_nav.html'"></div>
+<div class="pg-title">
+	<div class="valign">
+		The best of the Imamu Community
+	</div>
+</div>
+<div class="container learn">
+	<div class="bcrumb">
+		<a>Home</a>
+		<span>  /  </span>
+		<span>Products</span>
+		<span>  /  </span>
+		<span>{{product.seller.name}}'s {{product.name}}</span>	
+	</div>
+	<div class="kit-includes row">
+		<div class="col-md-6">
+ 			<div class="row">
+	 			<img class="img-responsive" src="{{product.large_image}}"/>
+ 			</div>
+ 			<div class="row">
+ 				<div class="seller-info seller-profile-pic">
+ 					<img src="{{product.seller.profile_pic}}">
+ 					<div ng-show="proChef" class="professional-chef-detail-wrapper">
+ 						Professional Chef
+ 						<img class="professional-chef-img img-responsive" src="images/chef-hat.png"/>
+ 					</div>
+ 				</div>
+ 				<div class="seller-info seller-bio">
+ 					<p>{{product.seller.name}}</p>
+ 					{{product.seller.bio}}
+ 				</div>
+ 				<div class="seller-info seller-verifications">
+ 					<span class="attributes" ng-repeat="attribute in product.seller.attributes"> {{attribute}} <span class="divider"> | </span></span>
+ 				</div>
+ 			</div>
+		</div>
+		<div class="col-md-6">
+			<div class="product-indent">
+				<h3>{{product.title}}</h3>
+				<div class="contains">
+					<p>Made with:</p>
+					<ul>
+						<li ng-repeat="item in product.contains">{{item}}</li>
+					</ul>
+					<p class="product-description">
+						{{product.product_description}}
+					</p>
+					<div class="product-input-wrapper">
+						<p class="text-center"><span class="highlight">{{product.amount_remaining}}</span>/50 remaining</p>
+						<div>
+							Enter your email to receive <span class="highlight">20% off</span> and reserve your {{product.name}}
+							<form>
+								<input class="form-control market-email-input" placeholder="email" type="email" ng-model="user.email" >
+								<input type="submit" class="btn btn-default btn-discount" ng-click="userAction(user, 'Market ' + product.name + ' Reserved')">
+							</form>
+						</div>
+					</div>
+					<div class="testimonial">
+						<div ng-if="product.rating == 5" class="5-stars stars">
+							<p>AVERAGE RATING</p><img src="images/5stars.png"/>
+						</div>
+
+						<div ng-if="product.rating == 4" class="4-stars stars">
+							<p>AVERAGE RATING</p><img src="images/4stars.png"/>
+						</div>
+						<p>USER REVIEWS</p>
+						<div class="user-review-wrapper" ng-repeat="review in product.testimonials">
+							<div class="user-review-info user-review-picture">
+								<img src="{{review.profile_pic}}">
+							</div>
+							<div class="user-review-info user-review-text">
+								<p>{{review.text}} - <span>{{review.name}}</p>
+							</div>
+						</div>
+				</div>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Modal -->
+	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header text-center">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	        <h4 class="modal-title" id="myModalLabel">Reserve your starter kit</h4>
+	        <p>We'll let you know as soon as it becomes available</p>
+	        <p>No credit card required for reservation!</p>
+	      </div>
+	      <div class="modal-body">
+	        <form id="email-form" novalidate>
+  				<input id="email-input" class="form-control" type="email" ng-model="user.email" placeholder="Enter your email" autofocus/>
+
+			</form>
+	      </div>
+	      <div class="modal-footer">
+	        <input class="btn btn-primary" id="signup-button" type="submit" ng-click="userAction(user, 'Market ' + product.name + ' Reserved')" value="SUBMIT" data-dismiss="modal"/>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	
+
+
+	<div class="other-kits">
+		<p>Other kits you might enjoy</p>
+		<div class="row">
+		<div class="col-md-4 item-listing" ng-repeat="product in product.other_kits">
+            <img class="img-responsive" src="{{product.image}}"/>
+			<div>
+				<p><a class="btn btn-default" href="{{product.url}}" role="button">Make this</a></p>  
+				<h4>{{product.title}}</h4>
+			</div>
+		</div>
+	</div>	
+	</div>
+</div>
+<div ng-include src="'/templates/footer.html'"></div>
