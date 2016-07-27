@@ -39,100 +39,130 @@
 		<hr>
 	</div>
 	<div class="row">
-		<div class="col-sm-4 col-md-4 item-listing">
-			<div class="market-products-image-wrapper">
-	            <img class="img-responsive" src="images/pl-yogurt.jpg"/>
-	            <img class="small-seller-profile-pic img-responsive" src="images/sarah.jpg"/>
-	        </div>
-			<div>
-				<p><a class="btn btn-default" ng-click="trackEvent('Market Product Linked Clicked', {destination: 'Yogurt'})" href="#/market/yogurt" role="button">Buy</a></p>  
-				<h4>Sarah's Yogurt</h4>
+		<a ng-click="trackEvent('Market Product Linked Clicked', {destination: 'Yogurt'})" href="#/market/yogurt" >
+			<div class="col-sm-4 col-md-4 item-listing">
+				<div class="market-products-image-wrapper">
+		            <img class="img-responsive" src="images/pl-yogurt.jpg"/>
+		            <img class="small-seller-profile-pic img-responsive" src="images/sarah.jpg"/>
+		            <div class="professional-chef-wrapper">
+		            	Professional Chef
+		            	<img class="professional-chef-img img-responsive" src="images/chef-hat.png"/>
+		            </div>
+		            
+		        </div>
+				<div>
+					<p><a class="btn btn-default" ng-click="trackEvent('Market Product Linked Clicked', {destination: 'Yogurt'})" href="#/market/yogurt" role="button">Buy</a></p>
+					<h4>Sarah's Yogurt</h4>
+				</div>
 			</div>
-		</div>
-		<div class="col-sm-4 col-md-4 item-listing">
-			<div class="market-products-image-wrapper">
-	            <img class="img-responsive" src="images/pl-pickles.jpg"/>
-	            <img class="small-seller-profile-pic img-responsive" src="images/mica.jpg"/>
-	        </div>
-			<div>
-				<p><a class="btn btn-default" ng-click="trackEvent('Market Product Linked Clicked', {destination: 'Pickles'})" href="#/market/pickles" role="button">Buy</a></p>  
-				<h4>Mica's Pickles</h4>
+		</a>
+		<a  ng-click="trackEvent('Market Product Linked Clicked', {destination: 'Pickles'})" href="#/market/pickles" >
+			<div class="col-sm-4 col-md-4 item-listing">
+				<div class="market-products-image-wrapper">
+		            <img class="img-responsive" src="images/pl-pickles.jpg"/>
+		            <img class="small-seller-profile-pic img-responsive" src="images/mica.jpg"/>
+		            <div class="professional-chef-wrapper">
+			            	Professional Chef
+			            	<img class="professional-chef-img img-responsive" src="images/chef-hat.png"/>
+			        </div>
+		        </div>
+				<div>
+					<p><a class="btn btn-default" ng-click="trackEvent('Market Product Linked Clicked', {destination: 'Pickles'})" href="#/market/pickles" role="button">Buy</a></p>  
+					<h4>Mica's Pickles</h4>
+				</div>
 			</div>
-		</div>
-		<div class="col-sm-4 col-md-4 item-listing">
-			<div class="market-products-image-wrapper">
-            	<img class="img-responsive" src="images/pl-kimchi.jpg"/>
-            	<img class="small-seller-profile-pic img-responsive" src="images/zoe.jpg"/>
-            </div>
-			<div>
-				<p><a class="btn btn-default" ng-click="trackEvent('Market Product Linked Clicked', {destination: 'Kimchi'})" href="#/market/kimchi" role="button">Buy</a></p>  
-				<h4>Zoe's Kimchi</h4>
+		</a>
+		<a  ng-click="trackEvent('Market Product Linked Clicked', {destination: 'Kimchi'})" href="#/market/kimchi">
+			<div class="col-sm-4 col-md-4 item-listing">
+				<div class="market-products-image-wrapper">
+	            	<img class="img-responsive" src="images/pl-kimchi.jpg"/>
+	            	<img class="small-seller-profile-pic img-responsive" src="images/zoe.jpg"/>
+	            	<div class="professional-chef-wrapper">
+			            	Professional Chef
+			            	<img class="professional-chef-img img-responsive" src="images/chef-hat.png"/>
+			        </div>
+	            </div>
+				<div>
+					<p><a class="btn btn-default" ng-click="trackEvent('Market Product Linked Clicked', {destination: 'Kimchi'})" href="#/market/kimchi" role="button">Buy</a></p>  
+					<h4>Zoe's Kimchi</h4>
+				</div>
 			</div>
-		</div>
+		</a>
 	</div>	
 	<div class="row">
-		<div class="col-sm-4 col-md-4 item-listing">
-			<div class="market-products-image-wrapper">
-				<img class="img-responsive" src="images/pl-kombucha.jpg"/>
-				<img class="small-seller-profile-pic img-responsive" src="images/ben.jpg"/>
+		<a  ng-click="trackEvent('Market Product Linked Clicked', {destination: 'Kombucha'})" href="#/market/kombucha">
+			<div class="col-sm-4 col-md-4 item-listing">
+				<div class="market-products-image-wrapper">
+					<img class="img-responsive" src="images/pl-kombucha.jpg"/>
+					<img class="small-seller-profile-pic img-responsive" src="images/ben.jpg"/>
+				</div>
+				<div>
+					<p><a class="btn btn-default" ng-click="trackEvent('Market Product Linked Clicked', {destination: 'Kombucha'})" href="#/market/kombucha" role="button">Buy</a></p>  
+					<h4>Ben's Kombucha</h4>
+				</div>
 			</div>
-			<div>
-				<p><a class="btn btn-default" ng-click="trackEvent('Market Product Linked Clicked', {destination: 'Kombucha'})" href="#/market/kombucha" role="button">Buy</a></p>  
-				<h4>Ben's Kombucha</h4>
+		</a>
+		<a  ng-click="trackEvent('Market Product Linked Clicked', {destination: 'Cider'})" href="#/market/cider">
+			<div class="col-sm-4 col-md-4 item-listing">
+				<div class="market-products-image-wrapper">
+	            	<img class="img-responsive" src="images/pl-cider.jpg"/>
+	            	<img class="small-seller-profile-pic img-responsive" src="images/kirk.jpg"/>
+	            </div>
+				<div>
+					<p><a class="btn btn-default" ng-click="trackEvent('Market Product Linked Clicked', {destination: 'Cider'})" href="#/market/cider" role="button">Buy</a></p>  
+					<h4>Kirk's Cider</h4>
+				</div>
 			</div>
-		</div>
-		<div class="col-sm-4 col-md-4 item-listing">
-			<div class="market-products-image-wrapper">
-            	<img class="img-responsive" src="images/pl-cider.jpg"/>
-            	<img class="small-seller-profile-pic img-responsive" src="images/kirk.jpg"/>
-            </div>
-			<div>
-				<p><a class="btn btn-default" ng-click="trackEvent('Market Product Linked Clicked', {destination: 'Cider'})" href="#/market/cider" role="button">Buy</a></p>  
-				<h4>Kirk's Cider</h4>
+		</a>
+		<a ng-click="trackEvent('Market Product Linked Clicked', {destination: 'Cheese'})" href="#/market/cheese" >
+			<div class="col-sm-4 col-md-4 item-listing">
+				<div class="market-products-image-wrapper">
+	            	<img class="img-responsive" src="images/pl-cheese.jpg"/>
+	            	<img class="small-seller-profile-pic img-responsive" src="images/joyce.jpg"/>
+	            </div>
+				<div>
+					<p><a class="btn btn-default" ng-click="trackEvent('Market Product Linked Clicked', {destination: 'Cheese'})" href="#/market/cheese" role="button">Buy</a></p>  
+					<h4>Joyce's Cheese</h4>
+				</div>
 			</div>
-		</div>
-		<div class="col-sm-4 col-md-4 item-listing">
-			<div class="market-products-image-wrapper">
-            	<img class="img-responsive" src="images/pl-cheese.jpg"/>
-            	<img class="small-seller-profile-pic img-responsive" src="images/joyce.jpg"/>
-            </div>
-			<div>
-				<p><a class="btn btn-default" ng-click="trackEvent('Market Product Linked Clicked', {destination: 'Cheese'})" href="#/market/cheese" role="button">Buy</a></p>  
-				<h4>Joyce's Cheese</h4>
-			</div>
-		</div>
+		</a>
 	</div>	
 	<div class="row">
-		<div class="col-sm-4 col-md-4 item-listing">
-			<div class="market-products-image-wrapper">
-            	<img class="img-responsive" src="images/pl-kefir.jpg"/>
-            	<img class="small-seller-profile-pic img-responsive" src="images/jeremy.jpg"/>
-            </div>
-			<div>
-				<p><a class="btn btn-default" ng-click="trackEvent('Market Product Linked Clicked', {destination: 'Kefir'})" href="#/market/kefir" role="button">Buy</a></p>  
-				<h4>Jeremy's Kefir</h4>
+		<a ng-click="trackEvent('Market Product Linked Clicked', {destination: 'Kefir'})" href="#/market/kefir">
+			<div class="col-sm-4 col-md-4 item-listing">
+				<div class="market-products-image-wrapper">
+	            	<img class="img-responsive" src="images/pl-kefir.jpg"/>
+	            	<img class="small-seller-profile-pic img-responsive" src="images/jeremy.jpg"/>
+	            </div>
+				<div>
+					<p><a class="btn btn-default" ng-click="trackEvent('Market Product Linked Clicked', {destination: 'Kefir'})" href="#/market/kefir" role="button">Buy</a></p>  
+					<h4>Jeremy's Kefir</h4>
+				</div>
 			</div>
-		</div>
-		<div class="col-sm-4 col-md-4 item-listing">
-			<div class="market-products-image-wrapper">
-            	<img class="img-responsive" src="images/pl-tempeh.jpg"/>
-            	<img class="small-seller-profile-pic img-responsive" src="images/megan.jpg"/>
-            </div>
-			<div>
-				<p><a class="btn btn-default" ng-click="trackEvent('Market Product Linked Clicked', {destination: 'Tempeh'})" href="#/market/tempeh" role="button">Buy</a></p>  
-				<h4>Megan's Tempeh</h4>
+			<a ng-click="trackEvent('Market Product Linked Clicked', {destination: 'Tempeh'})" href="#/market/tempeh">
+			<div class="col-sm-4 col-md-4 item-listing">
+				<div class="market-products-image-wrapper">
+	            	<img class="img-responsive" src="images/pl-tempeh.jpg"/>
+	            	<img class="small-seller-profile-pic img-responsive" src="images/megan.jpg"/>
+	            </div>
+				<div>
+					<p><a class="btn btn-default" ng-click="trackEvent('Market Product Linked Clicked', {destination: 'Tempeh'})" href="#/market/tempeh" role="button">Buy</a></p>  
+					<h4>Megan's Tempeh</h4>
+				</div>
 			</div>
-		</div>
-		<div class="col-sm-4 col-md-4 item-listing">
-			<div class="market-products-image-wrapper">
-            	<img class="img-responsive" src="images/pl-sauerkraut.jpg"/>
-            	<img class="small-seller-profile-pic img-responsive" src="images/luke.jpg"/>
-            </div>
-			<div>
-				<p><a class="btn btn-default" ng-click="trackEvent('Market Product Linked Clicked', {destination: 'Sauerkraut'})" href="#/market/sauerkraut" role="button">Buy</a></p> 
-				<h4>Luke's Sauerkraut</h4>
+		</a>
+		<a  ng-click="trackEvent('Market Product Linked Clicked', {destination: 'Sauerkraut'})" href="#/market/sauerkraut">
+			<div class="col-sm-4 col-md-4 item-listing">
+				<div class="market-products-image-wrapper">
+	            	<img class="img-responsive" src="images/pl-sauerkraut.jpg"/>
+	            	<img class="small-seller-profile-pic img-responsive" src="images/luke.jpg"/>
+	            </div>
+				<div>
+					<p><a class="btn btn-default" ng-click="trackEvent('Market Product Linked Clicked', {destination: 'Sauerkraut'})" href="#/market/sauerkraut" role="button">Buy</a></p> 
+					<h4>Luke's Sauerkraut</h4>
+				</div>
 			</div>
-		</div>
+		</a>
 	</div>				
 </div>
 <div ng-include src="'/templates/footer.html'"></div>

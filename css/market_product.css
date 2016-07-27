@@ -14,6 +14,23 @@
     left: 5px;
     border: 1px solid white;
 }
+.professional-chef-wrapper {
+	background-color: #F15A34;
+	position: absolute;
+	color: white;
+	padding: 5px 10px 5px 30px;
+	top: 5px;
+	right: 0px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+.professional-chef-img {
+	position: absolute;
+	right: 122px;
+	top: 5px;
+	height: 20px;
+	
+}
 
 
 
