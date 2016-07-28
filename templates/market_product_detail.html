@@ -42,11 +42,12 @@
 					<ul>
 						<li ng-repeat="item in product.contains">{{item}}</li>
 					</ul>
-					<p class="product-description">
+					<p class="product-description-marketplace">
 						{{product.product_description}}
 					</p>
 					<div class="product-input-wrapper">
-						<p class="text-center"><span class="highlight">{{product.amount_remaining}}</span>/50 remaining</p>
+						<p></p>
+						<p class="price">{{product.price}} — <span class="highlight">{{product.amount_remaining}}</span>/50 remaining</p>
 						<div>
 							Enter your email to receive <span class="highlight">20% off</span> and reserve your {{product.name}}
 							<form>

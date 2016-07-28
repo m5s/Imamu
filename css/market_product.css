@@ -34,9 +34,17 @@
 
 /*Product*/
 
+.product-description-marketplace {
+	font-size: 14px !important;
+}
+
 .product-input-wrapper{
 	
 
+}
+
+.price {
+	font-size: 18px;
 }
 
 .market-email-input {
