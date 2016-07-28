@@ -20,7 +20,7 @@
 
      init();
 
-     function userAction(user, action) {
+     function userAction(user, action, source) {
       if (!localStorage.imamuUser) {
         var distinctId = mixpanel.get_distinct_id()
         mixpanel.identify(distinctId)
@@ -36,7 +36,7 @@
 
       user_hash.email = user.email
       user_hash.name = user.name
-      trackEvent(action, user_hash)
+      trackEvent(action, user_hash, source)
       pageSpecificActions()
       ngNotify.set('Thanks! We\'ll be in touch soon.', {
           position: 'top',
@@ -44,11 +44,15 @@
       });
      }
 
-     function trackEvent(action, info) {
+     function trackEvent(action, info, source) {
         mixpanel.track(action, info)
         if (action == "Product Reserve Step One"){
           fbq('track', 'AddToCart');
-        }
+        } else if (action == "Subscription ReservedWithEmail") {
+          fbq(['track', 'CompleteRegistration']);
+        } else if (source == "marketplace") {
+          fbq(['track', 'CompleteRegistration']);
+        } 
      }
 
      function pageSpecificActions(){
