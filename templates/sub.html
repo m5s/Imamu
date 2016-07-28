@@ -10,9 +10,29 @@
 </nav>
 <!-- Main jumbotron for a primary marketing message or call to action -->
     <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron">
+    <div class="jumbotron jumbosub">
       <div class="container">
-        <h1>Everything you need to prepare a new probiotic healthy dish every month</h1>
+        <row>
+          <div class="col-sm-12 col-md-8">
+            <h1>
+            Everything you need to create a new probiotic healthy food every month
+            </h1>
+          </div>
+          <div class="col-sm-12 col-md-4">
+            <div class="jumbosignup">
+              <div>
+                Enter your email to reserve your box and receive
+                <span class="highlight">20% off</span>!
+                <form>
+                <input class="form-control market-email-input" placeholder="EMAIL ADDRESS" type="email" ng-model="user.email" >
+                <input type="submit" class="btn btn-default btn-sub-jumbo-signup" ng-click="userAction(user, 'Subscription ' + 'ReservedWithEmail')">
+              </form>
+            </div>
+            </div>
+          </div>          
+        </row>
+
+        <!--  
         <div class="row">
           <div class="col-sm-12 col-md-6">
             <p>Imamu is a monthly box with farm sourced ingredients, starter culturs, and anything else you need to create amazing probiotic-rich dishes at home</p>
@@ -22,6 +42,12 @@
             <p><a class="btn btn-primary btn-lg big-signup-button" ng-click="trackEvent('Go To Sub Signup', {destination: 'Signup'})" href="#/signup" role="button">Get Started!</a></p>
           </div>
         </div>
+        -->
+      </div>
+    </div>
+    <div class="sub-sub-head">
+      <div class="container">
+         <p>Imamu is a monthly box with farm sourced ingredients, fermentation starter culture, containers, and anything else you need to create amazing probiotic-rich dishes at home</p>
       </div>
     </div>
   
@@ -69,23 +95,47 @@
     </div>
     <div class="clearfix"></div>
     <div class="row">
-      <div class="col-sm-4 col-md-4 text-center">
+      <div class="col-sm-6 col-md-6 text-center">
         <div>
-          <img class="img-responsive center-block" src="images/s-soybeans.png"/>
+          <img class="img-responsive center-block" src="images/box-no-bg.png"/>
         </div>
-        <p class="sub-caption">Handpicked ingredients</p>
       </div>
-      <div class="col-sm-4 col-md-4 text-center">
-        <div>
-          <img class="center-block img-responsive" src="images/s-box.png"/>
-        </div>
-        <p class="sub-caption">Everything you need</p>
-      </div>
-      <div class="col-sm-4 col-md-4 text-center">
-        <div>
-          <img class="center-block img-responsive" src="images/s-jar.png"/>
-        </div>        
-        <p class="sub-caption">Quality cookware</p>
+      <div class="col-sm-6 col-md-6 text-left box-list">
+       <div class="row">
+         <div class="col-xs-3 col-sm-3 col-md-3 text-center">
+            <img class="" src="images/s-ingredients.png"/>
+         </div>
+         <div class="col-xs-9 col-sm-9 col-md-9">
+            <div>Locally sourced ingredients</div>
+         </div>
+       </div>
+
+        <div class="row">
+         <div class="col-xs-3 col-sm-3 col-md-3 text-center">
+            <img class="" src="images/s-starter.png"/>
+         </div>
+         <div class="col-xs-9 col-sm-9 col-md-9">
+            <div>Quality starter culture</div>
+         </div>
+       </div>
+
+        <div class="row">
+         <div class="col-xs-3 col-sm-3 col-md-3 text-center">
+            <img class="" src="images/s-jar-icon.png"/>
+         </div>
+         <div class="col-xs-9 col-sm-9 col-md-9">
+            <div>Perfect containers and tools</div>
+         </div>
+       </div>
+
+        <div class="row">
+         <div class="col-xs-3 col-sm-3 col-md-3 text-center">
+            <img class="" src="images/s-recipe.png"/>
+         </div>
+         <div class="col-xs-9 col-sm-9 col-md-9">
+            <div>Easy to follow step by step instructions</div>
+         </div>
+       </div>              
       </div>
     </div>
     <p class="text-center sub-button"><a class="btn btn-primary btn-lg" ng-click="trackEvent('Go To Sub Signup', {destination: 'Signup'})" href="#/signup" role="button">GET STARTED &raquo;</a></p>

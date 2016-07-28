@@ -38,7 +38,7 @@
       user_hash.name = user.name
       trackEvent(action, user_hash)
       pageSpecificActions()
-      ngNotify.set('Awesome! We\'ll reach out soon.', {
+      ngNotify.set('Thanks! We\'ll be in touch soon.', {
           position: 'top',
           sticky: true
       });

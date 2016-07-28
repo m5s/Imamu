@@ -188,7 +188,15 @@ HOME
 
 .jumbotron p {
 	color:#fff;
+	font-size:24px;
 }
+ @media only screen 
+  and (min-width: 992px) 
+  {
+  	.jumbotron p {
+		font-size:30px;
+  	}  
+  } 
 
 /* 
 ------------------
@@ -467,6 +475,50 @@ SUB
 .sub {
 	padding:20px 0;
 }
+.jumbosub {
+	margin-bottom:0;
+}
+@media only screen 
+  and (min-width: 992px) {
+  	.jumbosub {
+  		padding-top:10em;
+  		padding-bottom:10em;
+  	}
+  }
+.jumbosignup {
+	background: rgba(241, 90, 52, 1);
+	padding:10px 20px;
+	border-radius:10px;
+	margin-top:30px;
+}  
+.jumbosignup > div {
+	color:#FFFCF5;
+	text-align:center;
+	font-size:20px;
+}
+.jumbosignup > div .highlight {
+	color:#fff;
+	font-weight:bold;
+}
+.jumbosignup .btn {
+	font-size:18px;
+	width:100%;
+	border-radius:10px;
+	background: rgba(241, 90, 52, 0.8);
+}
+.jumbosignup .market-email-input{
+	margin:20px 0;
+} 
+.sub-sub-head{
+	background:#6F6664;
+}
+.sub-sub-head p{
+	color:#fff;
+	text-align:center;
+	font-size:24px;
+	padding:30px 0;
+}
+
 .sub .sub-header {
 	text-align:center;
 	margin-bottom:40px;
@@ -535,4 +587,10 @@ SUB
  	border-radius:20px;
  	font-weight:bold;
  	padding:5px 10px;
+ }
+ .box-list img {
+ 	margin:10px 0;
+ }
+ .box-list > div > div > div {
+ 	margin:10px 0;
  }
