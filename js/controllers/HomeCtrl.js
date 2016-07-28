@@ -16,6 +16,12 @@
        if ($scope.pathArray[1] == "market"){
           determineMarketProduct()
        }
+       if ($scope.pathArray[1] == "sub" && $scope.pathArray.length < 3) {
+          $scope.trackEvent("Subscription Page Loaded")   
+       } else if ($scope.pathArray[1] == "market" && $scope.pathArray.length < 3) {
+          $scope.trackEvent("Market Page Loaded")   
+       } 
+       
      }
 
      init();
