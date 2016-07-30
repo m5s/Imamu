@@ -21,6 +21,12 @@
        } else if ($scope.pathArray[1] == "market" && $scope.pathArray.length < 3) {
           $scope.trackEvent("Market Page Loaded")   
        } 
+
+       if ($scope.pathArray[1] =="soon") {
+          $('body').addClass("soon");
+          $('#ng-view').css("height", "100%");
+          $scope.trackEvent("Soon Page Loaded") 
+       }
        
      }
 

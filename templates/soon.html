@@ -1,0 +1,55 @@
+    <div class="soon-site-wrapper">
+      <div class="soon-site-wrapper-inner">
+
+
+        <div class="soon-cover-container">
+
+          <div class="inner soon-cover">
+            <p class="intro">Local ingredients | Simple recipies | Quality cookware</p>
+            <h1 class="soon-cover-heading">IMAMU</h1>
+            <p class="lead">Everything you need to create artisanal probiotic-rich foods, delivered to your door each month</p>
+              <p class="launching">Launching autumn 2016</p>
+              <p class="signup-text">SIGNUP NOW TO RECEIVE 20% OFF!</p>
+                <form>
+                  <input class="form-control soon-email-input" placeholder="EMAIL ADDRESS" type="email" ng-model="user.email" >
+                  <input type="submit" class="btn btn-default soon-btn" ng-click="userAction(user, 'Soon Subscription Signup')">
+                </form>
+          </div>
+
+          <div class="soon-mastfoot">
+            <div class="soon-inner">
+              <a class="soon-launch-modal" data-toggle="modal" data-target="#myModal" ng-click="userAction(user, 'Open Soon Modal')">What can I make with Imamu?<span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span></a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+      <!-- Modal -->
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header text-center">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel">Imamu is something new every month</h4>
+          <p class="recipe-examples">-- Examples of our monthly recipes --</p>
+          <p><span class="glyphicon glyphicon-asterisk" aria-hidden="true"></span>WILDBERRY YOGURT</p>
+          <p><span class="glyphicon glyphicon-asterisk" aria-hidden="true"></span>THREE CABBAGE AND PEPPER SAUERKRAUT</p>
+          <p><span class="glyphicon glyphicon-asterisk" aria-hidden="true"></span>NEW YORK STYLE CHILI DILL PICKLES</p>
+          <p>lactose and/or gluten free option available for all recipes</p>
+        </div>
+        <div class="modal-body">
+          <p class="modal-signup-discount">SIGNUP NOW TO RECEIVE 20% OFF AT LAUNCH</p>
+          <form id="email-form" novalidate>
+          <input id="email-input" class="form-control" type="email" ng-model="user.email" placeholder="Enter your email" autofocus/>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <input class="btn btn-primary" id="signup-button" type="submit" ng-click="userAction(user, 'Modal Soon Subscription Signup')" value="SUBMIT" data-dismiss="modal"/>
+        </div>
+      </div>
+    </div>
+  </div>

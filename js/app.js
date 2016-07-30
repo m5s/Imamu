@@ -118,6 +118,10 @@ app.config(function($routeProvider, $locationProvider) {
             templateUrl : '/templates/signup.html',
             controller  : 'HomeController'
         })
+        .when('/soon', {
+            templateUrl : '/templates/soon.html',
+            controller  : 'HomeController'
+        })
         .otherwise( {redirectTo: '/'});
 
 });

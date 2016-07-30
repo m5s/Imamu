@@ -1,3 +1,6 @@
+html {
+	height:100%;
+}
 body {
 	background:#FFFCF5;
 	color:#6F6664;
@@ -606,4 +609,182 @@ SUB
  	margin:0;
  	text-align: center;
  	font-size:18px;
+ }
+ /* 
+------------------
+SOON
+------------------
+*/
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.soon {
+	height: 100% !important;
+}
+.soon-site-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+  background:url('../images/soon-cover.png') no-repeat center center fixed; ;
+  min-height: 100%;
+  -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+          box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+	
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+}
+.soon-site-wrapper-inner {
+  display: table-cell;
+  vertical-align: top;
+}
+.soon-cover-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Padding for spacing */
+.soon-inner {
+  padding: 10px;
+
+}
+
+
+
+/*
+ * Cover
+ */
+
+.soon-cover {
+  padding: 0 20px;
+  color:#fff;
+  text-align:center;
+}
+.intro {
+	font-size:14px;
+}
+.launching {
+	color:#CBCBC2;
+	margin:20px 0;
+}
+.soon-cover .soon-btn-lg {
+  padding: 10px 20px;
+  font-weight: bold;
+}
+.soon-cover-heading {
+	font-size:82px;
+	font-family: 'Cabin', sans-serif;
+	font-weight:bold;
+	letter-spacing:0.09em;
+}
+.soon-email-input {
+	margin:20px auto;
+	max-width:360px;
+}
+@media only screen 
+  and (min-width: 768px) {
+  	.soon-email-input {
+  		display:inline-block;
+  		margin-right:10px;
+  	}
+  	.soon-btn {
+  		border-radius:5px;
+  	}
+  	.intro {
+  		font-size:16px;
+  	}
+  }
+
+
+/*
+ * Footer
+ */
+
+.soon-mastfoot {
+}
+  .soon-site-wrapper-inner {
+  	color:#fff;
+    vertical-align: middle;
+    text-align:center;
+  }
+  .soon-mastfoot {
+  	font-style: italic;
+    position: fixed;
+    bottom: 0;
+    width:100%;
+  }
+  .soon-launch-modal {
+  	color:#fff;
+  }
+  .soon-launch-modal:hover {
+  	color:#fff;
+  	text-decoration:underline;
+  	cursor:hover;
+  }
+  .soon .glyphicon {
+  	margin-left:5px;
+  }
+
+/*
+ * Affix and center
+ */
+
+@media (min-width: 768px) {
+  /* Pull out the header and footer */
+
+  /* Start the vertical centering 
+  added above
+  .soon-site-wrapper-inner {
+    vertical-align: middle;
+  }
+  */
+
+  /* Handle the widths */
+  .soon-masthead,
+  .soon-mastfoot,
+  .soon-cover-container {
+    width: 100%; /* Must be percentage or pixels for horizontal alignment */
+  }
+}
+
+@media (min-width: 992px) {
+  .soon-masthead,
+  .soon-mastfoot,
+  .soon-cover-container {
+    width: 700px;
+  }
+}
+.soon .modal-content {
+	border-radius:0;
+	color:#999;
+}
+.soon .modal-title {
+	color:#999;
+	font-family: 'Cabin', sans-serif;
+	font-weight:bold;
+	font-size:24px;
+}
+.recipe-examples {
+	font-size:18px !important;
+	font-style:normal !important;
+	margin:20px 0!important;
+}
+.soon .modal-header {
+	color:#999;
+	font-weight:normal;
+}
+.soon .modal-header > p{
+	font-size:14px;
+	font-style: italic;
+	margin:5px;
+}
+ .soon .modal-header > p:last-child  {
+ 	font-size:12px;
+ 	font-style:normal;
+ 	margin:20px 0 0;
+ }
+ .modal-signup-discount {
+ 	text-align:center;
+ 	font-weight:bold;
+ 	font-size:12px;
  }
