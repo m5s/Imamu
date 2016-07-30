@@ -64,7 +64,11 @@
           fbq(['track', 'CompleteRegistration']);
         } else if (source == "marketplace") {
           fbq(['track', 'CompleteRegistration']);
-        } 
+        } else if (action == "Soon Subscription Signup") {
+          fbq(['track', 'CompleteRegistration']);
+        } else if (action == "Modal Soon Subscription Signup") {
+          fbq(['track', 'CompleteRegistration']);
+        }  
      }
 
      function pageSpecificActions(){
