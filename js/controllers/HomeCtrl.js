@@ -27,7 +27,11 @@
           $('#ng-view').css("height", "100%");
           $scope.trackEvent("Soon Page Loaded") 
        }
-       
+       if ($scope.pathArray[1] =="gyogurt") {
+          $('body').addClass("gyogurt");
+          $('#ng-view').css("height", "100%");
+          $scope.trackEvent("Gyogurt Page Loaded") 
+       }
      }
 
      init();

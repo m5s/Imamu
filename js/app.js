@@ -122,6 +122,10 @@ app.config(function($routeProvider, $locationProvider) {
             templateUrl : '/templates/soon.html',
             controller  : 'HomeController'
         })
+        .when('/gyogurt', {
+            templateUrl : '/templates/gyogurt.html',
+            controller  : 'HomeController'
+        })
         .otherwise( {redirectTo: '/'});
 
 });

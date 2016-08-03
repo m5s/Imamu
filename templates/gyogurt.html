@@ -1,0 +1,129 @@
+	<div style="position:relative;"class="top-wrapper">
+		<div>
+			<img src="images/imamu.png"/>
+			<h1>Simple Greek Yogurt Starter Kit</h1>	
+		</div>
+			<div class="addtocart small-view">
+				<div class="product-price">
+					
+					<span style="text-decoration: line-through;">$70</span>
+					<p>Sale price</p>
+					<span> $60</span>
+					<p><a class="btn btn-default" role="button" data-toggle="modal" data-target="#myModal" ng-click="trackEvent('Gyogurt Add To Cart')">Add to cart</a></p>  
+				</div>
+			</div>
+	</div>
+	<div class="top-wrapper">
+		<div class="details">
+			<div class="description">
+				<h3>About our Greek Yogurt starter kit</h3>
+				<p>
+				Our Greek Yogurt Starter kit makes it incredibly easy to create your own pobiotic-rich healthy Greek yogurt. Start with our simple instructions and flavors or experiment on your own, once see how easy it is to make your own homemade yogurt you'll wonder how why you ever used to pay more to buy it from the store!
+				</p>
+	
+			</div>
+
+			<div class="rating">
+				<span>Average customer rating</span><img src="images/5stars.png"/>
+			</div>		
+
+			<div class="kit">
+				<h3>What comes in the kit?</h3>
+				<div>
+					<div>
+						<p>Yogotherm Yogurt Maker</p>
+						<img class="img-responsive" src="images/yogotherm.png"/>
+					</div>
+					<div>
+						<p>2 Culture Starer Packets</p>
+						<img class="img-responsive" src="images/imamu-packets.png"/>
+					</div>
+					<div>
+						<p>All-Natural Flavorings (Vanilla / Honey / Berry)</p>
+						<img class="img-responsive" src="images/honeyvanillajam.png"/>
+					</div>						
+				</div>
+			</div>
+			<div class="clearfix"></div>
+			<div class="addtocart">
+				<div class="product-price">
+					
+					<span style="text-decoration: line-through;">$70</span>
+					<p>Sale price</p>
+					<span> $60</span>
+					<p><a class="btn btn-default" role="button" data-toggle="modal" data-target="#myModal" ng-click="trackEvent('Gyogurt Add To Cart')">Add to cart</a></p>  
+				</div>
+			</div>
+		</div>
+		
+		<div class="faq">
+			<h3>Frequently asked questions</h3>
+			<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+			  <div class="panel panel-default">
+			    <div class="panel-heading" role="tab" id="headingOne">
+			      <h4 class="panel-title">
+			        <a role="button" data-toggle="collapse" data-parent="#accordion" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+			          <span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span> Why should I make my own yogurt?
+			        </a>
+			      </h4>
+			    </div>
+			    <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+			      <div class="panel-body">
+			        Homemade yogurt tastes better, saves you money, and is better for you. There are more probiotics in freshly made yogurt, which is great for your digestive system, various skin conditions, and can even prevent allergies and colds. Oh and it’s super fun!
+			      </div>
+			    </div>
+			  </div>
+			  <div class="panel panel-default">
+			    <div class="panel-heading" role="tab" id="headingTwo">
+			      <h4 class="panel-title">
+			        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+			         <span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span> What else will I need to make yogurt besides what's in the kit?
+			        </a>
+			      </h4>
+			    </div>
+			    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+			      <div class="panel-body">
+			        You will only need to supply the milk to make yogurt, about 5 cups. Whether whole milk, low-fat, almond milk ... it's up to you!
+			      </div>
+			    </div>
+			  </div>
+			  <div class="panel panel-default">
+			    <div class="panel-heading" role="tab" id="headingThree">
+			      <h4 class="panel-title">
+			        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+			          <span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span> What are probiotics?
+			        </a>
+			      </h4>
+			    </div>
+			    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+			      <div class="panel-body">
+			       Probiotics are helpful bacteria and yeasts that are great for your health, specifically your digestive system. They are naturally found in your body. You can find them in everything from yogurt to chocolate, and in all fermented foods :)
+			      </div>
+			    </div>
+			  </div>
+			</div>	
+
+		</div>
+	</div>
+	<div class="clearfix"></div>
+	<div ng-include src="'/templates/footer.html'"></div>
+      <!-- Modal -->
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header text-center">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel">Sorry! We are temporarily out of stock.</h4>
+        </div>
+        <div class="modal-body">
+          <p class="modal-signup-discount">Please enter your email and we will notify you when new products are available</p>
+          <form id="email-form" novalidate>
+          <input id="email-input" class="form-control" type="email" ng-model="user.email" placeholder="Enter your email" autofocus/>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <input class="btn btn-primary" id="signup-button" type="submit" ng-click="userAction(user, 'Gyogurt Email Signup')" value="SUBMIT" data-dismiss="modal"/>
+        </div>
+      </div>
+    </div>
+  </div>
