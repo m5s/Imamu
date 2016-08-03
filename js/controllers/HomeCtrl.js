@@ -72,7 +72,9 @@
           fbq(['track', 'CompleteRegistration']);
         } else if (action == "Modal Soon Subscription Signup") {
           fbq(['track', 'CompleteRegistration']);
-        }  
+        } else if (action == "Gyogurt Add To Cart") {
+          fbq(['track', 'CompleteRegistration']);
+        }    
      }
 
      function pageSpecificActions(){
